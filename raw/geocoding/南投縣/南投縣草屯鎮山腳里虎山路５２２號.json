@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "南投縣草屯鎮山腳里虎山路５２２號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[南投縣]\tFULL:1",
+      "OutTraceInfo": "[南投縣]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "南投縣草屯鎮山腳里33鄰虎山路522號",
+      "COUNTY": "南投縣",
+      "TOWN": "草屯鎮",
+      "VILLAGE": "山腳里",
+      "NEIGHBORHOOD": "33鄰",
+      "ROAD": "虎山路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "522號",
+      "X": 120.687199,
+      "Y": 23.969442,
+      "CODEBASE": "A0803-0543-00",
+      "CODE1": "A0803-22-012",
+      "CODE2": "A0803-22"
+    }
+  ]
+}

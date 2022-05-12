@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "新竹市北區客雅里延平路一段159巷34號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[新竹市]\tFULL:1",
+      "OutTraceInfo": "[新竹市]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "10309",
+      "FULL_ADDR": "新竹市北區客雅里11鄰延平路一段159巷34號",
+      "COUNTY": "新竹市",
+      "TOWN": "北區",
+      "VILLAGE": "客雅里",
+      "NEIGHBORHOOD": "11鄰",
+      "ROAD": "延平路",
+      "SECTION": "1",
+      "LANE": "159巷",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "34號",
+      "X": 120.956321,
+      "Y": 24.803416,
+      "CODEBASE": "A1802-0579-00",
+      "CODE1": "A1802-44-003",
+      "CODE2": "A1802-44"
+    }
+  ]
+}

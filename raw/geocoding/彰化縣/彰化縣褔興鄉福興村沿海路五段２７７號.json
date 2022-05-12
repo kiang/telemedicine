@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "彰化縣褔興鄉福興村沿海路五段２７７號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[彰化縣]\tT:0,V:1,R:1,S:1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[彰化縣]\t { 模糊比對 } (褔興鄉)\t找不到符合的[鄉鎮市區]，進行轉換搜尋[鄉變成鎮]，進行轉換搜尋[鎮變成市]，進行轉換搜尋[市變成區]，進行轉換搜尋[區變成市]，進行轉換搜尋[市變成鎮]，進行轉換搜尋[鎮變成鄉]，轉換搜尋找不到符合的[鄉鎮市區]，(福興村)\t找到符合的[村里]，(沿海路)\t找到符合的[路街名]，(5)\t找到符合的[路段]，(277號)\t找到符合的[門牌號碼]，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "彰化縣福興鄉福興村2鄰沿海路五段277號",
+      "COUNTY": "彰化縣",
+      "TOWN": "福興鄉",
+      "VILLAGE": "福興村",
+      "NEIGHBORHOOD": "2鄰",
+      "ROAD": "沿海路",
+      "SECTION": "5",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "277號",
+      "X": 120.430314,
+      "Y": 24.049219,
+      "CODEBASE": "A0706-0031-00",
+      "CODE1": "A0706-01-001",
+      "CODE2": "A0706-01"
+    }
+  ]
+}

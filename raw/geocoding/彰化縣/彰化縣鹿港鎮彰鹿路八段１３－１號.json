@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "彰化縣鹿港鎮彰鹿路八段１３－１號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[彰化縣]\tT:1,V:-1,R:1,S:1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[彰化縣]\t { 模糊比對 } (鹿港鎮)\t找到符合的[鄉鎮市區]，(彰鹿路)\t找到符合的[路街名]，(8)\t找到符合的[路段]，(13－1號)\t找到符合的[門牌號碼]，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "彰化縣鹿港鎮街尾里4鄰彰鹿路八段13之1號",
+      "COUNTY": "彰化縣",
+      "TOWN": "鹿港鎮",
+      "VILLAGE": "街尾里",
+      "NEIGHBORHOOD": "4鄰",
+      "ROAD": "彰鹿路",
+      "SECTION": "8",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "13之1號",
+      "X": 120.439277,
+      "Y": 24.048995,
+      "CODEBASE": "A0702-0670-00",
+      "CODE1": "A0702-31-003",
+      "CODE2": "A0702-31"
+    }
+  ]
+}

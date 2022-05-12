@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "彰化縣和美鎮山梨里道周路４１９號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[彰化縣]\tT:1,V:0,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[彰化縣]\t { 模糊比對 } (和美鎮)\t找到符合的[鄉鎮市區]，(山梨里)\t找不到符合的[村里]，進行轉換搜尋[村變成里，里變成村]，轉換搜尋找不到進行[忽略村里]，(道周路)\t找到符合的[路街名]，(419號)\t找到符合的[門牌號碼]，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "彰化縣和美鎮山犁里6鄰道周路419號",
+      "COUNTY": "彰化縣",
+      "TOWN": "和美鎮",
+      "VILLAGE": "山犁里",
+      "NEIGHBORHOOD": "6鄰",
+      "ROAD": "道周路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "419號",
+      "X": 120.496188,
+      "Y": 24.107661,
+      "CODEBASE": "A0703-0356-00",
+      "CODE1": "A0703-19-007",
+      "CODE2": "A0703-19"
+    }
+  ]
+}

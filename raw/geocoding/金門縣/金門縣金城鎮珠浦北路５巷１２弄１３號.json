@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "金門縣金城鎮珠浦北路５巷１２弄１３號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[金門縣]\tFULL:1",
+      "OutTraceInfo": "[金門縣]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "金門縣金城鎮北門里20鄰珠浦北路5巷12弄13號",
+      "COUNTY": "金門縣",
+      "TOWN": "金城鎮",
+      "VILLAGE": "北門里",
+      "NEIGHBORHOOD": "20鄰",
+      "ROAD": "珠浦北路",
+      "SECTION": "",
+      "LANE": "5巷",
+      "ALLEY": "12弄",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "13號",
+      "X": 118.319830,
+      "Y": 24.432921,
+      "CODEBASE": "A9201-0046-00",
+      "CODE1": "A9201-06-003",
+      "CODE2": "A9201-06"
+    }
+  ]
+}

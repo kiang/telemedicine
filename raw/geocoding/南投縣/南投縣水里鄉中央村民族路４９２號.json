@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "南投縣水里鄉中央村民族路４９２號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[南投縣]\tFULL:1",
+      "OutTraceInfo": "[南投縣]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "南投縣水里鄉中央村2鄰民族路492號",
+      "COUNTY": "南投縣",
+      "TOWN": "水里鄉",
+      "VILLAGE": "中央村",
+      "NEIGHBORHOOD": "2鄰",
+      "ROAD": "民族路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "492號",
+      "X": 120.853617,
+      "Y": 23.816417,
+      "CODEBASE": "A0811-0057-00",
+      "CODE1": "A0811-02-009",
+      "CODE2": "A0811-02"
+    }
+  ]
+}

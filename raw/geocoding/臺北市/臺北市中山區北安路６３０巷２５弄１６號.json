@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "臺北市中山區北安路６３０巷２５弄１６號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[臺北市]\tFULL:1",
+      "OutTraceInfo": "[臺北市]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺北市中山區成功里5鄰北安路630巷25弄16號",
+      "COUNTY": "臺北市",
+      "TOWN": "中山區",
+      "VILLAGE": "成功里",
+      "NEIGHBORHOOD": "5鄰",
+      "ROAD": "北安路",
+      "SECTION": "",
+      "LANE": "630巷",
+      "ALLEY": "25弄",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "16號",
+      "X": 121.549910,
+      "Y": 25.083603,
+      "CODEBASE": "A6304-0051-00",
+      "CODE1": "A6304-05-001",
+      "CODE2": "A6304-05"
+    }
+  ]
+}
