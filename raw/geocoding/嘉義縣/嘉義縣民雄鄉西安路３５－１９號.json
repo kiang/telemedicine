@@ -1,0 +1,73 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "嘉義縣民雄鄉西安路３５－１９號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[嘉義縣]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[嘉義縣]\t { 模糊比對 } (民雄鄉)\t找到符合的[鄉鎮市區]，(西安路)\t找到符合的[路街名]，(35－19號)\t找到符合的[門牌號碼]，進行[單號過濾]，進行[找最小門牌的號之、之號]，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "嘉義縣民雄鄉西安村24鄰西安路35之19號",
+      "COUNTY": "嘉義縣",
+      "TOWN": "民雄鄉",
+      "VILLAGE": "西安村",
+      "NEIGHBORHOOD": "24鄰",
+      "ROAD": "西安路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "35之19號",
+      "X": 120.425725,
+      "Y": 23.557168,
+      "CODEBASE": "A1005-0181-00",
+      "CODE1": "A1005-06-001",
+      "CODE2": "A1005-06"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "嘉義縣民雄鄉西安村24鄰西安路35號之19",
+      "COUNTY": "嘉義縣",
+      "TOWN": "民雄鄉",
+      "VILLAGE": "西安村",
+      "NEIGHBORHOOD": "24鄰",
+      "ROAD": "西安路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "35號之19",
+      "X": 120.425723,
+      "Y": 23.557169,
+      "CODEBASE": "A1005-0181-00",
+      "CODE1": "A1005-06-001",
+      "CODE2": "A1005-06"
+    }
+  ]
+}

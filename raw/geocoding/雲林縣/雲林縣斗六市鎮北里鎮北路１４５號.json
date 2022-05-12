@@ -1,0 +1,73 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "雲林縣斗六市鎮北里鎮北路１４５號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[雲林縣]\tT:1,V:1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+1)(-3),E:-1,N:-1",
+      "OutTraceInfo": "[雲林縣]\t { 模糊比對 } (斗六市)\t找到符合的[鄉鎮市區]，(鎮北里)\t找到符合的[村里]，(鎮北路)\t找到符合的[路街名]，(145號)\t進行[找大於且最接近的門牌號碼]，找到大於輸入的門牌號碼 +1 號，進行[找小於且最接近的門牌號碼]，找到小於輸入的門牌號碼 -3 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "雲林縣斗六市鎮北里8鄰鎮北路142號",
+      "COUNTY": "雲林縣",
+      "TOWN": "斗六市",
+      "VILLAGE": "鎮北里",
+      "NEIGHBORHOOD": "8鄰",
+      "ROAD": "鎮北路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "142號",
+      "X": 120.543054,
+      "Y": 23.715108,
+      "CODEBASE": "A0901-0247-00",
+      "CODE1": "A0901-11-007",
+      "CODE2": "A0901-11"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "雲林縣斗六市鎮北里5鄰鎮北路146號",
+      "COUNTY": "雲林縣",
+      "TOWN": "斗六市",
+      "VILLAGE": "鎮北里",
+      "NEIGHBORHOOD": "5鄰",
+      "ROAD": "鎮北路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "146號",
+      "X": 120.543105,
+      "Y": 23.715183,
+      "CODEBASE": "A0901-0247-00",
+      "CODE1": "A0901-11-007",
+      "CODE2": "A0901-11"
+    }
+  ]
+}

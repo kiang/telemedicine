@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "嘉義縣大埔鄉大埔村大埔路自強巷２２號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[嘉義縣]\tT:1,V:1,R:1,S:-1,L:0,A:-1,SA:-1,T:-1,AR:0,NO:0,E:-1,N:-1",
+      "OutTraceInfo": "[嘉義縣]\t { 模糊比對 } (大埔鄉)\t找到符合的[鄉鎮市區]，(大埔村)\t找到符合的[村里]，(大埔路)\t找到符合的[路街名]，(自強巷)\t找不到符合的[巷]，(自強巷)\t找不到符合的[地區]，進行轉換搜尋[路或街變成地區名]，轉換搜尋找不到符合的[地區]，(22號)\t進行[雙號過濾]，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "嘉義縣大埔鄉大埔村13鄰大埔路278號附1",
+      "COUNTY": "嘉義縣",
+      "TOWN": "大埔鄉",
+      "VILLAGE": "大埔村",
+      "NEIGHBORHOOD": "13鄰",
+      "ROAD": "大埔路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "278號附1",
+      "X": 120.591757,
+      "Y": 23.299185,
+      "CODEBASE": "A1017-0015-00",
+      "CODE1": "A1017-01-003",
+      "CODE2": "A1017-01"
+    }
+  ]
+}

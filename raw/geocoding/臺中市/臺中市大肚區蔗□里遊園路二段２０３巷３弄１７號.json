@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "臺中市大肚區蔗□里遊園路二段２０３巷３弄１７號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[臺中市]\tT:1,V:0,R:1,S:1,L:1,A:1,SA:-1,T:-1,AR:-1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[臺中市]\t { 模糊比對 } (大肚區)\t找到符合的[鄉鎮市區]，(蔗□里)\t找不到符合的[村里]，進行轉換搜尋[村變成里，里變成村]，轉換搜尋找不到進行[忽略村里]，(遊園路)\t找到符合的[路街名]，(2)\t找到符合的[路段]，(203巷)\t找到符合的[巷]，(3弄)\t找到符合的[弄]，(17號)\t找到符合的[門牌號碼]，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺中市大肚區自強里6鄰遊園路二段203巷3弄17號",
+      "COUNTY": "臺中市",
+      "TOWN": "大肚區",
+      "VILLAGE": "自強里",
+      "NEIGHBORHOOD": "6鄰",
+      "ROAD": "遊園路",
+      "SECTION": "2",
+      "LANE": "203巷",
+      "ALLEY": "3弄",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "17號",
+      "X": 120.579729,
+      "Y": 24.173504,
+      "CODEBASE": "A6624-0019-00",
+      "CODE1": "A6624-02-002",
+      "CODE2": "A6624-02"
+    }
+  ]
+}
