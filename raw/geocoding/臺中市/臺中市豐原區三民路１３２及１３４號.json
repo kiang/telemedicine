@@ -1,0 +1,73 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "臺中市豐原區三民路１３２及１３４號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[臺中市]\tT:1,V:-1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:0,NO:0(+18)(-2),E:-1,N:-1",
+      "OutTraceInfo": "[臺中市]\t { 模糊比對 } (豐原區)\t找到符合的[鄉鎮市區]，(三民路)\t找到符合的[路街名]，(一三二及)\t找不到符合的[地區]，進行轉換搜尋[路或街變成地區名]，轉換搜尋找不到符合的[地區]，(134號)\t進行[雙號過濾]，進行[找大於且最接近的門牌號碼]，找到大於輸入的門牌號碼 +18 號，進行[找小於且最接近的門牌號碼]，找到小於輸入的門牌號碼 -2 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺中市豐原區豐榮里12鄰三民路132號",
+      "COUNTY": "臺中市",
+      "TOWN": "豐原區",
+      "VILLAGE": "豐榮里",
+      "NEIGHBORHOOD": "12鄰",
+      "ROAD": "三民路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "132號",
+      "X": 120.719476,
+      "Y": 24.253596,
+      "CODEBASE": "A6609-0302-00",
+      "CODE1": "A6609-13-009",
+      "CODE2": "A6609-13"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺中市豐原區豐榮里18鄰三民路152號",
+      "COUNTY": "臺中市",
+      "TOWN": "豐原區",
+      "VILLAGE": "豐榮里",
+      "NEIGHBORHOOD": "18鄰",
+      "ROAD": "三民路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "152號",
+      "X": 120.719278,
+      "Y": 24.253579,
+      "CODEBASE": "A6609-0318-00",
+      "CODE1": "A6609-16-003",
+      "CODE2": "A6609-16"
+    }
+  ]
+}

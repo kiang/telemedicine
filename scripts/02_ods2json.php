@@ -32,7 +32,9 @@ if (!file_exists($jsonPath)) {
 
 $errorCount = 0;
 $lineCount = 0;
-foreach (glob($rawPath . '/*.ods') as $odsFile) {
+$filesPool = ['醫院.ods', '診所.ods'];
+foreach ($filesPool as $odsFile) {
+    $odsFile = $rawPath . '/' . $odsFile;
     $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($odsFile);
     $sheetData   = $spreadsheet->getActiveSheet()->toArray();
     array_shift($sheetData);

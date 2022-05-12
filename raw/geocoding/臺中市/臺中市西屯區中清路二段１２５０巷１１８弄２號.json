@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "臺中市西屯區中清路二段１２５０巷１１８弄２號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[臺中市]\tFULL:1",
+      "OutTraceInfo": "[臺中市]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺中市西屯區港尾里21鄰中清路二段1250巷118弄2號",
+      "COUNTY": "臺中市",
+      "TOWN": "西屯區",
+      "VILLAGE": "港尾里",
+      "NEIGHBORHOOD": "21鄰",
+      "ROAD": "中清路",
+      "SECTION": "2",
+      "LANE": "1250巷",
+      "ALLEY": "118弄",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "2號",
+      "X": 120.660392,
+      "Y": 24.195931,
+      "CODEBASE": "A6606-0057-00",
+      "CODE1": "A6606-03-006",
+      "CODE2": "A6606-03"
+    }
+  ]
+}
