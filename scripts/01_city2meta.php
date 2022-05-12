@@ -16,7 +16,9 @@ $fh = fopen($rawFile, 'r');
 $header = fgetcsv($fh, 2048);
 $pool = [];
 while ($line = fgetcsv($fh, 2048)) {
-    $pool[$line[1]] = $line;
+    if ($line[2] == 4) {
+        $pool[$line[1]] = $line;
+    }
 }
 $data = [];
 
