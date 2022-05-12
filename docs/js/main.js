@@ -127,6 +127,12 @@ function showPoint(pointId) {
       message += '<tr><th scope="row" style="width: 100px;">名稱</th><td>';
       message += '<a href="http://www.nhi.gov.tw/QueryN/Query3_Detail.aspx?HospID=' + p.id + '" target="_blank">' + p.name + '</a>';
       message += '</td></tr>';
+      if (p.line && p.line !== '') {
+        message += '<tr><th scope="row">LINE</th><td>' + p.line.replace(/\\n/g, '<br />') + '</td></tr>';
+      }
+      if (p.google && p.google !== '') {
+        message += '<tr><th scope="row">Google</th><td>' + p.google.replace(/\\n/g, '<br />') + '</td></tr>';
+      }
       if (p.note) {
         message += '<tr><th scope="row">備註</th><td>' + p.note.replace(/\\n/g, '<br />') + '</td></tr>';
       }

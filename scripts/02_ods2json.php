@@ -17,8 +17,10 @@ $fh = fopen($rawFile, 'r');
 $header = fgetcsv($fh, 2048);
 $pool = [];
 while ($line = fgetcsv($fh, 2048)) {
-    $pool[$line[1]] = $line;
+    $key = substr($line[2], 0, 1) . $line[1];
+    $pool[$key] = $line;
 }
+$meta = json_decode(file_get_contents(dirname(__DIR__) . '/raw/meta.json'), true);
 $fc = [
     'type' => 'FeatureCollection',
     'features' => [],
@@ -95,15 +97,22 @@ foreach ($filesPool as $odsFile) {
             $json = json_decode(file_get_contents($rawFile), true);
             if (!empty($json['AddressList'][0]['X'])) {
                 $pointFound = true;
+                $key = substr($line[0], 0, 1) . $line[3];
+                $code = '';
+                if (isset($pool[$key])) {
+                    $code = $pool[$key][0];
+                }
                 $fc['features'][] = [
                     'type' => 'Feature',
                     'properties' => [
-                        'id' => isset($pool[$line[3]]) ? $pool[$line[3]][0] : '',
+                        'id' => $code,
                         'name' => $line[3],
                         'phone' => $line[4],
                         'address' => $line[5],
                         'note' => $line[6],
-                        'service_periods' => isset($pool[$line[3]]) ? $pool[$line[3]][5] : '',
+                        'service_periods' => isset($pool[$key]) ? $pool[$key][5] : '',
+                        'line' => isset($meta[$code]) ? $meta[$code]['line'] : '',
+                        'google' => isset($meta[$code]) ? $meta[$code]['google'] : '',
                     ],
                     'geometry' => [
                         'type' => 'Point',
