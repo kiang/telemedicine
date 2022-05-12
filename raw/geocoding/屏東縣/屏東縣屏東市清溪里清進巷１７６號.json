@@ -1,0 +1,73 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "屏東縣屏東市清溪里清進巷１７６號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[屏東縣]\tT:1,V:1,R:-1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:0,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[屏東縣]\t { 模糊比對 } (屏東市)\t找到符合的[鄉鎮市區]，(清溪里)\t找到符合的[村里]，(清進巷)\t找不到符合的[地區]，轉換搜尋找不到符合的[地區]，(176號)\t找到符合的[門牌號碼]，進行[雙號過濾]，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "屏東縣屏東市清溪里28鄰清寧街176號",
+      "COUNTY": "屏東縣",
+      "TOWN": "屏東市",
+      "VILLAGE": "清溪里",
+      "NEIGHBORHOOD": "28鄰",
+      "ROAD": "清寧街",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "176號",
+      "X": 120.471886,
+      "Y": 22.662127,
+      "CODEBASE": "A1301-0985-00",
+      "CODE1": "A1301-74-001",
+      "CODE2": "A1301-74"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "屏東縣屏東市清溪里21鄰清世街176號",
+      "COUNTY": "屏東縣",
+      "TOWN": "屏東市",
+      "VILLAGE": "清溪里",
+      "NEIGHBORHOOD": "21鄰",
+      "ROAD": "清世街",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "176號",
+      "X": 120.473213,
+      "Y": 22.656821,
+      "CODEBASE": "A1301-1091-00",
+      "CODE1": "A1301-74-007",
+      "CODE2": "A1301-74"
+    }
+  ]
+}

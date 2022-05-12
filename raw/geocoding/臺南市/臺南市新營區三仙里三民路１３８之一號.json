@@ -1,0 +1,73 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "臺南市新營區三仙里三民路１３８之一號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[臺南市]\tT:1,V:1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:1(+1),E:-1,N:-1",
+      "OutTraceInfo": "[臺南市]\t { 模糊比對 } (新營區)\t找到符合的[鄉鎮市區]，(三仙里)\t找到符合的[村里]，(三民路)\t找到符合的[路街名]，(138之一號)\t找到符合的[門牌號碼]，進行[雙號過濾]，進行[找大於且最接近門牌的號之、之號]，找到大於輸入的門牌的號之、之號 1 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺南市新營區三仙里1鄰三民路138之1附1號",
+      "COUNTY": "臺南市",
+      "TOWN": "新營區",
+      "VILLAGE": "三仙里",
+      "NEIGHBORHOOD": "1鄰",
+      "ROAD": "三民路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "138之1附1號",
+      "X": 120.311706,
+      "Y": 23.306813,
+      "CODEBASE": "A6701-0232-00",
+      "CODE1": "A6701-17-001",
+      "CODE2": "A6701-17"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺南市新營區三仙里1鄰三民路138之1號",
+      "COUNTY": "臺南市",
+      "TOWN": "新營區",
+      "VILLAGE": "三仙里",
+      "NEIGHBORHOOD": "1鄰",
+      "ROAD": "三民路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "138之1號",
+      "X": 120.311657,
+      "Y": 23.306801,
+      "CODEBASE": "A6701-0232-00",
+      "CODE1": "A6701-17-001",
+      "CODE2": "A6701-17"
+    }
+  ]
+}

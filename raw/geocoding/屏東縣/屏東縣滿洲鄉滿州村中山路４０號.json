@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "屏東縣滿洲鄉滿州村中山路４０號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[屏東縣]\tT:0,V:1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[屏東縣]\t { 模糊比對 } (滿洲鄉)\t找不到符合的[鄉鎮市區]，進行轉換搜尋[鄉變成鎮]，進行轉換搜尋[鎮變成市]，進行轉換搜尋[市變成區]，進行轉換搜尋[區變成市]，進行轉換搜尋[市變成鎮]，進行轉換搜尋[鎮變成鄉]，轉換搜尋找不到符合的[鄉鎮市區]，(滿州村)\t找到符合的[村里]，(中山路)\t找到符合的[路街名]，(40號)\t找到符合的[門牌號碼]，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "屏東縣滿州鄉滿州村17鄰中山路40號",
+      "COUNTY": "屏東縣",
+      "TOWN": "滿州鄉",
+      "VILLAGE": "滿州村",
+      "NEIGHBORHOOD": "17鄰",
+      "ROAD": "中山路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "40號",
+      "X": 120.838610,
+      "Y": 22.019794,
+      "CODEBASE": "A1324-0192-00",
+      "CODE1": "A1324-04-005",
+      "CODE2": "A1324-04"
+    }
+  ]
+}
