@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "臺中市南屯區黎光里干城街２０２巷１弄２號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[臺中市]\tT:1,V:0,R:1,S:-1,L:1,A:1,SA:-1,T:-1,AR:-1,NO:1,E:-1,N:-1",
+      "OutTraceInfo": "[臺中市]\t { 模糊比對 } (南屯區)\t找到符合的[鄉鎮市區]，(黎光里)\t找不到符合的[村里]，進行轉換搜尋[村變成里，里變成村]，轉換搜尋找不到進行[忽略村里]，(干城街)\t找到符合的[路街名]，(202巷)\t找到符合的[巷]，(1弄)\t找到符合的[弄]，(2號)\t找到符合的[門牌號碼]，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺中市南屯區黎明里11鄰干城街202巷1弄2號",
+      "COUNTY": "臺中市",
+      "TOWN": "南屯區",
+      "VILLAGE": "黎明里",
+      "NEIGHBORHOOD": "11鄰",
+      "ROAD": "干城街",
+      "SECTION": "",
+      "LANE": "202巷",
+      "ALLEY": "1弄",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "2號",
+      "X": 120.628303,
+      "Y": 24.152594,
+      "CODEBASE": "A6607-0114-00",
+      "CODE1": "A6607-03-010",
+      "CODE2": "A6607-03"
+    }
+  ]
+}
