@@ -42,7 +42,7 @@ foreach ($filesPool as $odsFile) {
     array_shift($sheetData);
     array_shift($sheetData);
     foreach ($sheetData as $line) {
-        if (empty($line[5]) || $errorCount > 5) {
+        if (empty($line[5])) {
             continue;
         }
         $pos = strpos($line[5], '號');
@@ -57,7 +57,7 @@ foreach ($filesPool as $odsFile) {
             mkdir($cityPath, 0777, true);
         }
         $rawFile = $cityPath . '/' . $fullAddress . '.json';
-        if (!file_exists($rawFile)) {
+        if ($errorCount < 5 && !file_exists($rawFile)) {
             $apiUrl = $config['tgos']['url'] . '?' . http_build_query([
                 'oAPPId' => $config['tgos']['APPID'], //應用程式識別碼(APPId)
                 'oAPIKey' => $config['tgos']['APIKey'], // 應用程式介接驗證碼(APIKey)
