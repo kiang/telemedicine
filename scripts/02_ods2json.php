@@ -17,8 +17,7 @@ $fh = fopen($rawFile, 'r');
 $header = fgetcsv($fh, 2048);
 $pool = [];
 while ($line = fgetcsv($fh, 2048)) {
-    $key = substr($line[2], 0, 1) . $line[1];
-    $pool[$key] = $line;
+    $pool[$line[0]] = $line;
 }
 $meta = json_decode(file_get_contents(dirname(__DIR__) . '/raw/meta.json'), true);
 $fc = [
@@ -44,14 +43,14 @@ foreach ($filesPool as $odsFile) {
     array_shift($sheetData);
     array_shift($sheetData);
     foreach ($sheetData as $line) {
-        if (empty($line[5])) {
+        if (empty($line[6])) {
             continue;
         }
-        $pos = strpos($line[5], '號');
+        $pos = strpos($line[6], '號');
         if (false !== $pos) {
-            $fullAddress = substr($line[5], 0, $pos) . '號';
+            $fullAddress = substr($line[6], 0, $pos) . '號';
         } else {
-            $fullAddress = $line[5];
+            $fullAddress = $line[6];
         }
 
         $cityPath = $rawPath . '/geocoding/' . $line[1];
@@ -97,19 +96,15 @@ foreach ($filesPool as $odsFile) {
             $json = json_decode(file_get_contents($rawFile), true);
             if (!empty($json['AddressList'][0]['X'])) {
                 $pointFound = true;
-                $key = substr($line[0], 0, 1) . $line[3];
-                $code = '';
-                if (isset($pool[$key])) {
-                    $code = $pool[$key][0];
-                }
+                $key = $code = $line[3];
                 $fc['features'][] = [
                     'type' => 'Feature',
                     'properties' => [
-                        'id' => $code,
-                        'name' => $line[3],
-                        'phone' => $line[4],
-                        'address' => $line[5],
-                        'note' => $line[6],
+                        'id' => $line[3],
+                        'name' => $line[4],
+                        'phone' => $line[5],
+                        'address' => $line[6],
+                        'note' => $line[7],
                         'service_periods' => isset($pool[$key]) ? $pool[$key][5] : '',
                         'line' => isset($meta[$code]) ? $meta[$code]['line'] : '',
                         'google' => isset($meta[$code]) ? $meta[$code]['google'] : '',
