@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "高雄市鹽埕區建國四路１２３號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[高雄市]\tFULL:1",
+      "OutTraceInfo": "[高雄市]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "高雄市鹽埕區江西里6鄰建國四路123號",
+      "COUNTY": "高雄市",
+      "TOWN": "鹽埕區",
+      "VILLAGE": "江西里",
+      "NEIGHBORHOOD": "6鄰",
+      "ROAD": "建國四路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "123號",
+      "X": 120.279480,
+      "Y": 22.624571,
+      "CODEBASE": "A6401-0068-00",
+      "CODE1": "A6401-07-004",
+      "CODE2": "A6401-07"
+    }
+  ]
+}

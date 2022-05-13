@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "高雄市茄萣區保定里仁愛路２段８６號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "完全比對",
+      "OutMatchCode": "[高雄市]\tFULL:1",
+      "OutTraceInfo": "[高雄市]\t { 完全比對 } 找到符合的門牌地址"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "高雄市茄萣區保定里14鄰仁愛路二段86號",
+      "COUNTY": "高雄市",
+      "TOWN": "茄萣區",
+      "VILLAGE": "保定里",
+      "NEIGHBORHOOD": "14鄰",
+      "ROAD": "仁愛路",
+      "SECTION": "2",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "86號",
+      "X": 120.185158,
+      "Y": 22.896114,
+      "CODEBASE": "A6426-0161-00",
+      "CODE1": "A6426-10-072",
+      "CODE2": "A6426-10"
+    }
+  ]
+}

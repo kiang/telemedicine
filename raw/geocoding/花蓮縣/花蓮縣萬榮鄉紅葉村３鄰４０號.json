@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "花蓮縣萬榮鄉紅葉村３鄰４０號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[花蓮縣]\tT:1,V:1,R:-1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:1,E:-1,N:1",
+      "OutTraceInfo": "[花蓮縣]\t { 模糊比對 } (萬榮鄉)\t找到符合的[鄉鎮市區]，(紅葉村)\t找到符合的[村里]，(40號)\t找到符合的[門牌號碼]，進行[雙號過濾]，(3鄰)\t找到符合的[鄰]，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "花蓮縣萬榮鄉紅葉村3鄰紅葉40號",
+      "COUNTY": "花蓮縣",
+      "TOWN": "萬榮鄉",
+      "VILLAGE": "紅葉村",
+      "NEIGHBORHOOD": "3鄰",
+      "ROAD": "",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "紅葉",
+      "NUMBER": "40號",
+      "X": 121.342371,
+      "Y": 23.494886,
+      "CODEBASE": "A1512-0080-00",
+      "CODE1": "A1512-10-008",
+      "CODE2": "A1512-10"
+    }
+  ]
+}
