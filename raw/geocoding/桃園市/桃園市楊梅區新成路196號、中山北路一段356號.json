@@ -1,0 +1,52 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "桃園市楊梅區新成路196號、中山北路一段356號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "1",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[桃園市]\tT:1,V:-1,R:1,-S:0,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(-138),E:-1,N:-1",
+      "OutTraceInfo": "[桃園市]\t { 模糊比對 } (楊梅區)\t找到符合的[鄉鎮市區]，(新成路)\t找到符合的[路街名]，(196號中山北路一段)\t找不到符合的[路段]，(356號)\t進行[雙號過濾]，進行[找小於且最接近的門牌號碼]，找到小於輸入的門牌號碼 -138 號，模糊比對找到 1 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "桃園市楊梅區梅新里13鄰新成路218號",
+      "COUNTY": "桃園市",
+      "TOWN": "楊梅區",
+      "VILLAGE": "梅新里",
+      "NEIGHBORHOOD": "13鄰",
+      "ROAD": "新成路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "218號",
+      "X": 121.147287,
+      "Y": 24.907634,
+      "CODEBASE": "A6804-0770-00",
+      "CODE1": "A6804-42-009",
+      "CODE2": "A6804-42"
+    }
+  ]
+}
