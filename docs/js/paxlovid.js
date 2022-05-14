@@ -27,7 +27,12 @@ function pointStyleFunction(f) {
     });
     radius = 15;
   }
-  color = '#48c774';
+  if(p.type == 1) {
+    color = '#48c774';
+  } else {
+    color = '#c74874';
+  }
+  
   return new ol.style.Style({
     image: new ol.style.RegularShape({
       radius: radius,

@@ -4,6 +4,7 @@ $nhiFiles = [
     dirname(dirname(__DIR__)) . '/data.nhi.gov.tw/raw/A21030000I-D21001-003.csv',
     dirname(dirname(__DIR__)) . '/data.nhi.gov.tw/raw/A21030000I-D21002-005.csv',
     dirname(dirname(__DIR__)) . '/data.nhi.gov.tw/raw/A21030000I-D21003-003.csv',
+    dirname(dirname(__DIR__)) . '/data.nhi.gov.tw/raw/A21030000I-D21005-001.csv',
 ];
 
 $info = [];
@@ -32,7 +33,12 @@ $fh = fopen($rawFile, 'r');
 $header = fgetcsv($fh, 2048);
 $pool = [];
 while ($line = fgetcsv($fh, 2048)) {
-    $pool[$line[1]] = [
+    $key = $line[1];
+    if (false !== strpos($line[1], '藥局')) {
+        $city = mb_substr($info[$line[0]][4], 0, 3, 'utf-8');
+        $key = $city . $line[1];
+    }
+    $pool[$key] = [
         'meta' => $line,
         'info' => isset($info[$line[0]]) ? $info[$line[0]] : [],
     ];
@@ -43,9 +49,84 @@ $fc = [
     'type' => 'FeatureCollection',
     'features' => [],
 ];
-$fh = fopen(dirname(__DIR__) . '/raw/paxlovid.csv', 'r');
-fgetcsv($fh, 2048);
+$fh = fopen($rawPath . '/paxlovid_pharmacies.csv', 'r');
+while ($line = fgetcsv($fh, 2048)) {
+    $line[1] = str_replace('台', '臺', $line[1]);
+    $key = $line[1] . $line[2];
+    if (isset($pool[$key])) {
+        $code = $pool[$key]['info'][0];
+        $address = $pool[$key]['info'][4];
 
+        $cityPath = $rawPath . '/geocoding/' . mb_substr($pool[$key]['info'][4], 0, 3, 'utf-8');
+        if (!file_exists($cityPath)) {
+            mkdir($cityPath, 0777, true);
+        }
+        $pos = strpos($address, '號');
+        if (false !== $pos) {
+            $address = substr($address, 0, $pos) . '號';
+        }
+        $rawFile = $cityPath . '/' . $address . '.json';
+        if (!file_exists($rawFile)) {
+            $apiUrl = $config['tgos']['url'] . '?' . http_build_query([
+                'oAPPId' => $config['tgos']['APPID'], //應用程式識別碼(APPId)
+                'oAPIKey' => $config['tgos']['APIKey'], // 應用程式介接驗證碼(APIKey)
+                'oAddress' => $address, //所要查詢的門牌位置
+                'oSRS' => 'EPSG:4326', //回傳的坐標系統
+                'oFuzzyType' => '2', //模糊比對的代碼
+                'oResultDataType' => 'JSON', //回傳的資料格式
+                'oFuzzyBuffer' => '0', //模糊比對回傳門牌號的許可誤差範圍
+                'oIsOnlyFullMatch' => 'false', //是否只進行完全比對
+                'oIsLockCounty' => 'true', //是否鎖定縣市
+                'oIsLockTown' => 'false', //是否鎖定鄉鎮市區
+                'oIsLockVillage' => 'false', //是否鎖定村里
+                'oIsLockRoadSection' => 'false', //是否鎖定路段
+                'oIsLockLane' => 'false', //是否鎖定巷
+                'oIsLockAlley' => 'false', //是否鎖定弄
+                'oIsLockArea' => 'false', //是否鎖定地區
+                'oIsSameNumber_SubNumber' => 'true', //號之、之號是否視為相同
+                'oCanIgnoreVillage' => 'true', //找不時是否可忽略村里
+                'oCanIgnoreNeighborhood' => 'true', //找不時是否可忽略鄰
+                'oReturnMaxCount' => '0', //如為多筆時，限制回傳最大筆數
+                'oIsSupportPast' => 'true',
+                'oIsShowCodeBase' => 'true',
+            ]);
+            $content = file_get_contents($apiUrl);
+            $pos = strpos($content, '{');
+            $posEnd = strrpos($content, '}') + 1;
+            $resultline = substr($content, $pos, $posEnd - $pos);
+            if (strlen($resultline) > 10) {
+                echo "{$address}\n";
+                file_put_contents($rawFile, substr($content, $pos, $posEnd - $pos));
+            }
+        }
+        if (file_exists($rawFile)) {
+            $json = json_decode(file_get_contents($rawFile), true);
+            if (!empty($json['AddressList'][0]['X'])) {
+                $fc['features'][] = [
+                    'type' => 'Feature',
+                    'properties' => [
+                        'id' => $code,
+                        'type' => '2',
+                        'name' => $line[2],
+                        'phone' => $pool[$key]['info'][3],
+                        'address' => $address,
+                        'service_periods' => $pool[$key]['meta'][5],
+                    ],
+                    'geometry' => [
+                        'type' => 'Point',
+                        'coordinates' => [
+                            $json['AddressList'][0]['X'],
+                            $json['AddressList'][0]['Y']
+                        ],
+                    ],
+                ];
+            }
+        }
+    }
+}
+
+$fh = fopen($rawPath . '/paxlovid.csv', 'r');
+fgetcsv($fh, 2048);
 while ($line = fgetcsv($fh, 2048)) {
     switch ($line[1]) {
         case '光田醫療社團法人光田綜合醫院沙鹿總院':
@@ -177,6 +258,7 @@ while ($line = fgetcsv($fh, 2048)) {
                 'type' => 'Feature',
                 'properties' => [
                     'id' => $code,
+                    'type' => '1',
                     'name' => $line[1],
                     'phone' => $pool[$key]['info'][3],
                     'address' => $address,
