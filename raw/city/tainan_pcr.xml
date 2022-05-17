@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>臺南市PCR院所 </name>
+    <description>1110517整理</description>
+    <Style id="icon-1899-A52714-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-A52714-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-A52714">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-A52714-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-A52714-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>臺南市提供PCR院所</name>
+      <Placemark>
+        <name>許庭碩耳鼻喉科診所</name>
+        <address>台南市北區臨安路二段252號</address>
+        <description><![CDATA[區域: 南區<br>縣市: 台南市<br>行政區: 北區<br>機構代碼: 3521042654<br>unnamed (1): Hsu Ting Shuo ENT Clinic<br>地址: 台南市北區臨安路二段252號<br>電話: 06-2282238<br>合作之指定檢驗機構: 尚捷醫事檢驗所]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="區域">
+            <value>南區</value>
+          </Data>
+          <Data name="縣市">
+            <value>台南市</value>
+          </Data>
+          <Data name="行政區">
+            <value>北區</value>
+          </Data>
+          <Data name="機構代碼">
+            <value>3.521042654E9</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>Hsu Ting Shuo ENT Clinic</value>
+          </Data>
+          <Data name="地址">
+            <value>台南市北區臨安路二段252號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-2282238</value>
+          </Data>
+          <Data name="合作之指定檢驗機構">
+            <value>尚捷醫事檢驗所</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>林大傑耳鼻喉科診所</name>
+        <address>台南市南區金華路二段171號</address>
+        <description><![CDATA[區域: 南區<br>縣市: 台南市<br>行政區: 南區<br>機構代碼: 3521020612<br>unnamed (1): Lin’s ENT Clinic<br>地址: 台南市南區金華路二段171號<br>電話: 06-2915660<br>合作之指定檢驗機構: 尚捷醫事檢驗所]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="區域">
+            <value>南區</value>
+          </Data>
+          <Data name="縣市">
+            <value>台南市</value>
+          </Data>
+          <Data name="行政區">
+            <value>南區</value>
+          </Data>
+          <Data name="機構代碼">
+            <value>3.521020612E9</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>Lin’s ENT Clinic</value>
+          </Data>
+          <Data name="地址">
+            <value>台南市南區金華路二段171號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-2915660</value>
+          </Data>
+          <Data name="合作之指定檢驗機構">
+            <value>尚捷醫事檢驗所</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>德安小兒科診所</name>
+        <address>台南市永康區永大路二段1538號1樓</address>
+        <description><![CDATA[區域: 南區<br>縣市: 台南市<br>行政區: 永康區<br>機構代碼: 3541312559<br>unnamed (1): De-An Pediatric Clinic<br>地址: 台南市永康區永大路二段1538號1樓<br>電話: 062032000<br>合作之指定檢驗機構: 優品醫事檢驗所JY02050032]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="區域">
+            <value>南區</value>
+          </Data>
+          <Data name="縣市">
+            <value>台南市</value>
+          </Data>
+          <Data name="行政區">
+            <value>永康區</value>
+          </Data>
+          <Data name="機構代碼">
+            <value>3.541312559E9</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>De-An Pediatric Clinic</value>
+          </Data>
+          <Data name="地址">
+            <value>台南市永康區永大路二段1538號1樓</value>
+          </Data>
+          <Data name="電話">
+            <value>062032000</value>
+          </Data>
+          <Data name="合作之指定檢驗機構">
+            <value>優品醫事檢驗所JY02050032</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>大河馬耳鼻喉科診所</name>
+        <address>台南市東區東寧路230號</address>
+        <description><![CDATA[區域: 南區<br>縣市: 台南市<br>行政區: 東區<br>機構代碼: 3521013751<br>unnamed (1): Big Hippo ENT<br>地址: 台南市東區東寧路230號<br>電話: 06-2751216<br>合作之指定檢驗機構: 新南海醫檢所]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="區域">
+            <value>南區</value>
+          </Data>
+          <Data name="縣市">
+            <value>台南市</value>
+          </Data>
+          <Data name="行政區">
+            <value>東區</value>
+          </Data>
+          <Data name="機構代碼">
+            <value>3.521013751E9</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>Big Hippo ENT</value>
+          </Data>
+          <Data name="地址">
+            <value>台南市東區東寧路230號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-2751216</value>
+          </Data>
+          <Data name="合作之指定檢驗機構">
+            <value>新南海醫檢所</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>林廷璋耳鼻喉科診所</name>
+        <address>台南市歸仁區民權三街98號</address>
+        <description><![CDATA[區域: 南區<br>縣市: 台南市<br>行政區: 歸仁區<br>機構代碼: 3505280056<br>unnamed (1): LINTINGCHANG ENT CLINIC <br>地址: 台南市歸仁區民權三街98號<br>電話: 062309919<br>合作之指定檢驗機構: 向陽醫事檢驗所]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="區域">
+            <value>南區</value>
+          </Data>
+          <Data name="縣市">
+            <value>台南市</value>
+          </Data>
+          <Data name="行政區">
+            <value>歸仁區</value>
+          </Data>
+          <Data name="機構代碼">
+            <value>3.505280056E9</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>LINTINGCHANG ENT CLINIC </value>
+          </Data>
+          <Data name="地址">
+            <value>台南市歸仁區民權三街98號</value>
+          </Data>
+          <Data name="電話">
+            <value>062309919</value>
+          </Data>
+          <Data name="合作之指定檢驗機構">
+            <value>向陽醫事檢驗所</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name> 大川耳鼻喉科診所</name>
+        <address>台南市新營區延平路99號</address>
+        <description><![CDATA[區域: 南區<br>縣市: 台南市<br>行政區: 新營區<br>機構代碼: 3541010523<br>unnamed (1): TA CHEN ENT Clinic<br>地址: 台南市新營區延平路99號<br>電話: 06-6337700<br>合作之指定檢驗機構: 現代醫事檢驗所]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="區域">
+            <value>南區</value>
+          </Data>
+          <Data name="縣市">
+            <value>台南市</value>
+          </Data>
+          <Data name="行政區">
+            <value>新營區</value>
+          </Data>
+          <Data name="機構代碼">
+            <value>3.541010523E9</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>TA CHEN ENT Clinic</value>
+          </Data>
+          <Data name="地址">
+            <value>台南市新營區延平路99號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-6337700</value>
+          </Data>
+          <Data name="合作之指定檢驗機構">
+            <value>現代醫事檢驗所</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>喜樂小兒科診所</name>
+        <address>東光路一段106號</address>
+        <description><![CDATA[區域: 南區<br>縣市: 台南市<br>行政區: 東區<br>機構代碼: 3521012745<br>unnamed (1): Joyful Pediatric Clinical<br>地址: 東光路一段106號<br>電話: 0930106108<br>合作之指定檢驗機構: 新南海醫事檢驗所]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="區域">
+            <value>南區</value>
+          </Data>
+          <Data name="縣市">
+            <value>台南市</value>
+          </Data>
+          <Data name="行政區">
+            <value>東區</value>
+          </Data>
+          <Data name="機構代碼">
+            <value>3.521012745E9</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>Joyful Pediatric Clinical</value>
+          </Data>
+          <Data name="地址">
+            <value>東光路一段106號</value>
+          </Data>
+          <Data name="電話">
+            <value>0930106108</value>
+          </Data>
+          <Data name="合作之指定檢驗機構">
+            <value>新南海醫事檢驗所</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>呂宗禧耳鼻喉科診所</name>
+        <address>台南市中西區民權路1段261號</address>
+        <description><![CDATA[區域: 南區<br>縣市: 臺南市<br>行政區: 中西區<br>機構代碼: 3521031722<br>unnamed (1): <br>地址: 台南市中西區民權路1段261號<br>電話: 06-2282155<br>合作之指定檢驗機構: 新南海檢驗所]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="區域">
+            <value>南區</value>
+          </Data>
+          <Data name="縣市">
+            <value>臺南市</value>
+          </Data>
+          <Data name="行政區">
+            <value>中西區</value>
+          </Data>
+          <Data name="機構代碼">
+            <value>3.521031722E9</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+          <Data name="地址">
+            <value>台南市中西區民權路1段261號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-2282155</value>
+          </Data>
+          <Data name="合作之指定檢驗機構">
+            <value>新南海檢驗所</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>楊博文耳鼻喉科診所</name>
+        <address>臺南市東區仁和路76之8號</address>
+        <description><![CDATA[區域: 南區<br>縣市: 臺南市<br>行政區: 東區<br>機構代碼: 3505320331<br>unnamed (1): <br>地址: 臺南市東區仁和路76之8號<br>電話: 06-2903911<br>合作之指定檢驗機構: 新南海醫事檢驗所]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="區域">
+            <value>南區</value>
+          </Data>
+          <Data name="縣市">
+            <value>臺南市</value>
+          </Data>
+          <Data name="行政區">
+            <value>東區</value>
+          </Data>
+          <Data name="機構代碼">
+            <value>3.505320331E9</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+          <Data name="地址">
+            <value>臺南市東區仁和路76之8號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-2903911</value>
+          </Data>
+          <Data name="合作之指定檢驗機構">
+            <value>新南海醫事檢驗所</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>臺南市提供PCR醫院</name>
+      <Placemark>
+        <name>衛生福利部臺南醫院</name>
+        <address>臺南市中西區中山路125號</address>
+        <description><![CDATA[﻿序號: 1<br>地址: 臺南市中西區中山路125號<br>電話: 06-2200055]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="﻿序號">
+            <value>1.0</value>
+          </Data>
+          <Data name="地址">
+            <value>臺南市中西區中山路125號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-2200055</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>台灣基督長老教會新樓醫療財團法人台南新樓醫院</name>
+        <address>臺南市東區東門路1段57號</address>
+        <description><![CDATA[﻿序號: 2<br>地址: 臺南市東區東門路1段57號<br>電話: 06-2748316]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="﻿序號">
+            <value>2.0</value>
+          </Data>
+          <Data name="地址">
+            <value>臺南市東區東門路1段57號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-2748316</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>台南市立醫院(委託秀傳醫療社團法人經營)</name>
+        <address>臺南市東區崇德路670號</address>
+        <description><![CDATA[﻿序號: 3<br>地址: 臺南市東區崇德路670號<br>電話: 06-2609926]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="﻿序號">
+            <value>3.0</value>
+          </Data>
+          <Data name="地址">
+            <value>臺南市東區崇德路670號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-2609926</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>國立成功大學醫學院附設醫院</name>
+        <address>臺南市北區勝利路138號</address>
+        <description><![CDATA[﻿序號: 4<br>地址: 臺南市北區勝利路138號<br>電話: 06-2353535]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="﻿序號">
+            <value>4.0</value>
+          </Data>
+          <Data name="地址">
+            <value>臺南市北區勝利路138號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-2353535</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>臺南市立安南醫院-委託中國醫藥大學興建經營</name>
+        <address>臺南市安南區長和路二段66號</address>
+        <description><![CDATA[﻿序號: 5<br>地址: 臺南市安南區長和路二段66號<br>電話: 06-3553111]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="﻿序號">
+            <value>5.0</value>
+          </Data>
+          <Data name="地址">
+            <value>臺南市安南區長和路二段66號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-3553111</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>高雄榮民總醫院臺南分院</name>
+        <address>臺南市永康區復興路427號</address>
+        <description><![CDATA[﻿序號: 6<br>地址: 臺南市永康區復興路427號<br>電話: 06-3125101]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="﻿序號">
+            <value>6.0</value>
+          </Data>
+          <Data name="地址">
+            <value>臺南市永康區復興路427號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-3125101</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>奇美醫療財團法人奇美醫院</name>
+        <address>臺南市永康區中華路901號</address>
+        <description><![CDATA[﻿序號: 7<br>地址: 臺南市永康區中華路901號<br>電話: 06-2812811]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="﻿序號">
+            <value>7.0</value>
+          </Data>
+          <Data name="地址">
+            <value>臺南市永康區中華路901號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-2812811</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>衛生福利部臺南醫院新化分院</name>
+        <address>臺南市新化區那拔里牧場72號</address>
+        <description><![CDATA[﻿序號: 8<br>地址: 臺南市新化區那拔里牧場72號<br>電話: 06-5911929]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="﻿序號">
+            <value>8.0</value>
+          </Data>
+          <Data name="地址">
+            <value>臺南市新化區那拔里牧場72號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-5911929</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>衛生福利部胸腔病院</name>
+        <address>臺南市仁德區中山路864號</address>
+        <description><![CDATA[﻿序號: 9<br>地址: 臺南市仁德區中山路864號<br>電話: 06-2705911]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="﻿序號">
+            <value>9.0</value>
+          </Data>
+          <Data name="地址">
+            <value>臺南市仁德區中山路864號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-2705911</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>台灣基督長老教會新樓醫療財團法人麻豆新樓醫院</name>
+        <address>臺南市麻豆區小埤里苓子林20號</address>
+        <description><![CDATA[﻿序號: 10<br>地址: 臺南市麻豆區小埤里苓子林20號<br>電話: 06-5702228]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="﻿序號">
+            <value>10.0</value>
+          </Data>
+          <Data name="地址">
+            <value>臺南市麻豆區小埤里苓子林20號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-5702228</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>奇美醫療財團法人佳里奇美醫院</name>
+        <address>臺南市佳里區興化里606號</address>
+        <description><![CDATA[﻿序號: 11<br>地址: 臺南市佳里區興化里606號<br>電話: 06-7263333]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="﻿序號">
+            <value>11.0</value>
+          </Data>
+          <Data name="地址">
+            <value>臺南市佳里區興化里606號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-7263333</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>衛生福利部新營醫院</name>
+        <address>臺南市新營區信義街73號</address>
+        <description><![CDATA[﻿序號: 12<br>地址: 臺南市新營區信義街73號<br>電話: 06-6351131]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="﻿序號">
+            <value>12.0</value>
+          </Data>
+          <Data name="地址">
+            <value>臺南市新營區信義街73號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-6351131</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>奇美醫療財團法人柳營奇美醫院</name>
+        <address>臺南市柳營區太康里201號</address>
+        <description><![CDATA[﻿序號: 13<br>地址: 臺南市柳營區太康里201號<br>電話: 06-6226999]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="﻿序號">
+            <value>13.0</value>
+          </Data>
+          <Data name="地址">
+            <value>臺南市柳營區太康里201號</value>
+          </Data>
+          <Data name="電話">
+            <value>06-6226999</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

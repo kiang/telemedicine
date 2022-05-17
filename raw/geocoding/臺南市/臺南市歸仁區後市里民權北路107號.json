@@ -1,0 +1,73 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "臺南市歸仁區後市里民權北路107號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[臺南市]\tT:1,V:1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+19)(-35),E:-1,N:-1",
+      "OutTraceInfo": "[臺南市]\t { 模糊比對 } (歸仁區)\t找到符合的[鄉鎮市區]，(後市里)\t找到符合的[村里]，(民權北路)\t找到符合的[路街名]，(107號)\t進行[找大於且最接近的門牌號碼]，找到大於輸入的門牌號碼 +19 號，進行[找小於且最接近的門牌號碼]，找到小於輸入的門牌號碼 -35 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺南市歸仁區後市里16鄰民權北路72號",
+      "COUNTY": "臺南市",
+      "TOWN": "歸仁區",
+      "VILLAGE": "後市里",
+      "NEIGHBORHOOD": "16鄰",
+      "ROAD": "民權北路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "72號",
+      "X": 120.288428,
+      "Y": 22.969239,
+      "CODEBASE": "A6728-0139-00",
+      "CODE1": "A6728-11-004",
+      "CODE2": "A6728-11"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺南市歸仁區後市里17鄰民權北路126號",
+      "COUNTY": "臺南市",
+      "TOWN": "歸仁區",
+      "VILLAGE": "後市里",
+      "NEIGHBORHOOD": "17鄰",
+      "ROAD": "民權北路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "126號",
+      "X": 120.288222,
+      "Y": 22.969987,
+      "CODEBASE": "A6728-0125-00",
+      "CODE1": "A6728-11-002",
+      "CODE2": "A6728-11"
+    }
+  ]
+}
