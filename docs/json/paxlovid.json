@@ -1300,24 +1300,6 @@
         {
             "type": "Feature",
             "properties": {
-                "id": "1531120038",
-                "type": "1",
-                "name": "瑞芳礦工醫院",
-                "phone": "02 -24974101",
-                "address": "新北市瑞芳區一坑路71之2號",
-                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.80217,
-                    25.108602
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "id": "0101090517-1",
                 "type": "1",
                 "name": "臺北市立聯合醫院仁愛院區",
