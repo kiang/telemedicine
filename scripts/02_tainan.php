@@ -52,9 +52,7 @@ $fc = [
 $csvFile = $rawPath . '/city/tainan.csv';
 // format error = https://docs.google.com/spreadsheets/d/1rVrP0RKSe2_NNJyhHQKkX0POyl_7Hmxb/gviz/tq?tqx=out:csv&sheet=%E5%BD%99%E6%95%B4%E8%A1%A8
 
-if (!file_exists($csvFile)) {
-    file_put_contents($csvFile, file_get_contents('https://docs.google.com/spreadsheets/d/1rVrP0RKSe2_NNJyhHQKkX0POyl_7Hmxb/export?format=csv'));
-}
+file_put_contents($csvFile, file_get_contents('https://docs.google.com/spreadsheets/d/1rVrP0RKSe2_NNJyhHQKkX0POyl_7Hmxb/export?format=csv'));
 /**
     [0] => 院所名稱
     [1] => 聯絡電話
@@ -195,9 +193,7 @@ while ($line = fgetcsv($fh, 2048)) {
 }
 
 $kmlFile = dirname(__DIR__) . '/raw/city/tainan_pcr.xml';
-if (!file_exists($kmlFile)) {
-    file_put_contents($kmlFile, file_get_contents('https://mapsengine.google.com/map/u/0/kml?forcekml=1&mid=1xLiYr0aHrJ6CUpzZ1fvwzojFp9YbXihY'));
-}
+file_put_contents($kmlFile, file_get_contents('https://mapsengine.google.com/map/u/0/kml?forcekml=1&mid=1xLiYr0aHrJ6CUpzZ1fvwzojFp9YbXihY'));
 $xml = simplexml_load_file($kmlFile, null, LIBXML_NOCDATA);
 foreach ($xml->Document->Folder as $folder) {
     foreach ($folder->Placemark as $placemark) {
