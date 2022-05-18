@@ -72,6 +72,8 @@ $fh = fopen($csvFile, 'r');
 fgetcsv($fh, 2048);
 fgetcsv($fh, 2048);
 $duplicatedCheck = [];
+$codePool = [];
+$fcKey = 0;
 while ($line = fgetcsv($fh, 2048)) {
     foreach ($line as $k => $v) {
         $line[$k] = trim($v);
@@ -165,11 +167,12 @@ while ($line = fgetcsv($fh, 2048)) {
         if (file_exists($rawFile)) {
             $json = json_decode(file_get_contents($rawFile), true);
             if (!empty($json['AddressList'][0]['X'])) {
-                $fc['features'][] = [
+                $codePool[$code] = $fcKey;
+                $fc['features'][$fcKey] = [
                     'type' => 'Feature',
                     'properties' => [
                         'id' => $code,
-                        'type' => '1',
+                        'type' => 1,
                         'name' => $key,
                         'line' => $line[2],
                         'google' => $line[3],
@@ -185,6 +188,7 @@ while ($line = fgetcsv($fh, 2048)) {
                         ],
                     ],
                 ];
+                $fcKey++;
             }
         }
     }
@@ -247,11 +251,17 @@ foreach ($xml->Document->Folder as $folder) {
             if (file_exists($rawFile)) {
                 $json = json_decode(file_get_contents($rawFile), true);
                 if (!empty($json['AddressList'][0]['X'])) {
+                    if (isset($codePool[$code])) {
+                        unset($fc['features'][$codePool[$code]]);
+                        $pointType = 3;
+                    } else {
+                        $pointType = 2;
+                    }
                     $fc['features'][] = [
                         'type' => 'Feature',
                         'properties' => [
                             'id' => $code,
-                            'type' => '2',
+                            'type' => $pointType,
                             'name' => $key,
                             'phone' => $pool[$key]['info'][3],
                             'address' => $address,
@@ -270,6 +280,7 @@ foreach ($xml->Document->Folder as $folder) {
         }
     }
 }
+$fc['features'] = array_values($fc['features']);
 
 $jsonPath = dirname(__DIR__) . '/docs/json';
 file_put_contents($jsonPath . '/tainan.json', json_encode($fc, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));

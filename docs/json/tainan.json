@@ -5,7 +5,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541041493",
-                "type": "1",
+                "type": 1,
                 "name": "陳信宏小兒科診所",
                 "line": "",
                 "google": "https:\/\/meet.google.com\/tcc-rxij-vbz",
@@ -25,7 +25,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541312871",
-                "type": "1",
+                "type": 1,
                 "name": "阮嵩翔耳鼻喉科診所",
                 "line": "Line ID:@462dzyfv \n阮嵩翔耳鼻喉科診所",
                 "google": "https:\/\/meet.google.com\/kvr-obuz-zgk",
@@ -45,7 +45,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521013573",
-                "type": "1",
+                "type": 1,
                 "name": "侯娟妃婦產科診所",
                 "line": "2356273",
                 "google": "https:\/\/meet.google.com\/dmp-srmd-vdk",
@@ -65,7 +65,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521011275",
-                "type": "1",
+                "type": 1,
                 "name": "路加小兒科診所",
                 "line": "@932bdwom",
                 "google": "https:\/\/meet.google.com\/qet-qfdw-qff\nhttps:\/\/meet.google.com\/nyk-bejs-kfb",
@@ -85,7 +85,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541061691",
-                "type": "1",
+                "type": 1,
                 "name": "徐小兒科診所",
                 "line": "Line ID:dhpc995\n新化徐小兒科診所",
                 "google": "",
@@ -105,7 +105,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521070327",
-                "type": "1",
+                "type": 1,
                 "name": "穠田聯合診所",
                 "line": "@049jfsra\n穠田聯合診所",
                 "google": "",
@@ -125,7 +125,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541312424",
-                "type": "1",
+                "type": 1,
                 "name": "復華耳鼻喉科診所",
                 "line": "ID:@272brnma     \n搜尋：復華耳鼻喉科診所",
                 "google": "https:\/\/meet.google.com\/evq-qjid-bja",
@@ -145,7 +145,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521012567",
-                "type": "1",
+                "type": 1,
                 "name": "陳淑玲林原弘小兒科診所",
                 "line": "vivianslchen",
                 "google": "https:\/\/meet.google.com\/zua-htpz-wbz",
@@ -165,7 +165,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541012269",
-                "type": "1",
+                "type": 1,
                 "name": "悅恩小兒科診所（樂恩聯合診所）",
                 "line": "",
                 "google": "https:\/\/meet.google.com\/qys-fhts-ybi",
@@ -185,7 +185,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541012189",
-                "type": "1",
+                "type": 1,
                 "name": "康庭小兒科診所（樂恩聯合診所）",
                 "line": "",
                 "google": "https:\/\/meet.google.com\/qys-fhts-ybi",
@@ -204,28 +204,8 @@
         {
             "type": "Feature",
             "properties": {
-                "id": "3521013751",
-                "type": "1",
-                "name": "大河馬耳鼻喉科診所",
-                "line": "ID: 062751216",
-                "google": "https:\/\/meet.google.com\/jqm-ijei-yhe",
-                "phone": "06 -2751216",
-                "address": "臺南市東區東寧路230號",
-                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.225092,
-                    22.990777
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "id": "3505060027",
-                "type": "1",
+                "type": 1,
                 "name": "膚仕美診所",
                 "line": "",
                 "google": "https:\/\/meet.google.com\/wqs-tntj-ctn",
@@ -245,7 +225,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521042609",
-                "type": "1",
+                "type": 1,
                 "name": "海安小兒科診所",
                 "line": "@550huchy",
                 "google": "https:\/\/meet.google.com\/pzp-tkxe-fvn",
@@ -265,7 +245,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541281675",
-                "type": "1",
+                "type": 1,
                 "name": "洪志旺耳鼻喉科診所",
                 "line": "hcw54717",
                 "google": "https:\/\/meet.google.com\/qca-togs-sbv",
@@ -285,7 +265,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3505310068",
-                "type": "1",
+                "type": 1,
                 "name": "成美診所",
                 "line": "@cij3760z",
                 "google": "",
@@ -305,7 +285,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541291171",
-                "type": "1",
+                "type": 1,
                 "name": "佑康診所",
                 "line": "",
                 "google": "https:\/\/meet.google.com\/wfm-rviv-bym",
@@ -325,7 +305,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541060523",
-                "type": "1",
+                "type": 1,
                 "name": "陳相國聯合診所",
                 "line": "",
                 "google": "https:\/\/meet.google.com\/zha-xyqw-ypm",
@@ -345,7 +325,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521011337",
-                "type": "1",
+                "type": 1,
                 "name": "呂品宜小兒科診所",
                 "line": "@226dielq",
                 "google": "https:\/\/meet.google.com\/wuy-ftsx-dni",
@@ -365,7 +345,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541281602",
-                "type": "1",
+                "type": 1,
                 "name": "蔡迪光小兒科診所",
                 "line": "@809ojtdp",
                 "google": "https:\/\/meet.google.com\/hcc-gqpa-yuu",
@@ -385,7 +365,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3505060036",
-                "type": "1",
+                "type": 1,
                 "name": "長頸鹿耳鼻喉科診所",
                 "line": "@513kbzym",
                 "google": "健康益友APP",
@@ -405,7 +385,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3505310120",
-                "type": "1",
+                "type": 1,
                 "name": "黃建雄耳鼻喉科診所",
                 "line": "@073arcdy",
                 "google": "",
@@ -425,7 +405,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541312997",
-                "type": "1",
+                "type": 1,
                 "name": "史地分小兒科診所",
                 "line": "@800ahnuj",
                 "google": "https:\/\/meet.google.com\/jzq-pxnc-yzg",
@@ -445,7 +425,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541270501",
-                "type": "1",
+                "type": 1,
                 "name": "趙俊凱耳鼻喉科診所",
                 "line": "2491886",
                 "google": "",
@@ -465,7 +445,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521062389",
-                "type": "1",
+                "type": 1,
                 "name": "魏大倫耳鼻喉科診所",
                 "line": "wtl01",
                 "google": "",
@@ -485,7 +465,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521062478",
-                "type": "1",
+                "type": 1,
                 "name": "陳昱成耳鼻喉科診所",
                 "line": "",
                 "google": "https:\/\/meet.google.com\/xjo-qkwb-uup",
@@ -505,7 +485,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521013591",
-                "type": "1",
+                "type": 1,
                 "name": "侯世婷小兒科診所",
                 "line": "houpedclinic",
                 "google": "",
@@ -525,7 +505,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3505330088",
-                "type": "1",
+                "type": 1,
                 "name": "青禾診所",
                 "line": "",
                 "google": "https:\/\/meet.google.com\/psf-qsok-xcx",
@@ -545,7 +525,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3505310433",
-                "type": "1",
+                "type": 1,
                 "name": "富ㄦ康診所",
                 "line": "062318600",
                 "google": "",
@@ -565,7 +545,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521060858",
-                "type": "1",
+                "type": 1,
                 "name": "賴俊良骨外科診所",
                 "line": "@370oujpk\nLine聊天 搜尋 「賴俊良聯合診所」",
                 "google": "",
@@ -585,7 +565,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3505330300",
-                "type": "1",
+                "type": 1,
                 "name": "加恩耳鼻喉專科診所",
                 "line": "@kwx0261c",
                 "google": "",
@@ -605,7 +585,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521013519",
-                "type": "1",
+                "type": 1,
                 "name": "良田蔡明峻小兒科診所",
                 "line": "@633atmth",
                 "google": "",
@@ -625,7 +605,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521050638",
-                "type": "1",
+                "type": 1,
                 "name": "郭重德診所",
                 "line": "",
                 "google": "https:\/\/meet.google.com\/mwf-kuuj-ney",
@@ -645,7 +625,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3505310264",
-                "type": "1",
+                "type": 1,
                 "name": "杏新耳鼻喉科診所",
                 "line": "063029066",
                 "google": "",
@@ -665,7 +645,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521042216",
-                "type": "1",
+                "type": 1,
                 "name": "王界三小兒科診所",
                 "line": "@888ebuqk",
                 "google": "https:\/\/meet.google.com\/bjq-ypob-ira",
@@ -685,7 +665,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521013108",
-                "type": "1",
+                "type": 1,
                 "name": "陳勃旭耳鼻喉科診所",
                 "line": "@dr8585",
                 "google": "https:\/\/meet.google.com\/eeu-ehfj-ztu",
@@ -705,7 +685,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541201319",
-                "type": "1",
+                "type": 1,
                 "name": "佳安小兒科診所",
                 "line": "Line ID: jiaan3311",
                 "google": "https:\/\/meet.google.com\/auj-zfqx-dzd",
@@ -725,7 +705,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3511012135",
-                "type": "1",
+                "type": 1,
                 "name": "傅耳鼻喉科診所",
                 "line": "0975429420",
                 "google": "",
@@ -745,7 +725,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541291224",
-                "type": "1",
+                "type": 1,
                 "name": "陳育瑄小兒科診所",
                 "line": "065960077",
                 "google": "",
@@ -764,28 +744,8 @@
         {
             "type": "Feature",
             "properties": {
-                "id": "3521042654",
-                "type": "1",
-                "name": "許庭碩耳鼻喉科診所",
-                "line": "",
-                "google": "",
-                "phone": "06 -2282238",
-                "address": "臺南市北區和順里臨安路二段252號",
-                "service_periods": "NNNNNNNNNNNNNYNNNNNYN"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.201365,
-                    23.004221
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "id": "3521010956",
-                "type": "1",
+                "type": 1,
                 "name": "呂怡璋小兒科診所",
                 "line": "062748014",
                 "google": "",
@@ -805,7 +765,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3543190186",
-                "type": "1",
+                "type": 1,
                 "name": "鄭耳鼻喉科診所",
                 "line": "062721231",
                 "google": "",
@@ -825,7 +785,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521013475",
-                "type": "1",
+                "type": 1,
                 "name": "婦兒安診所",
                 "line": "@959qbghp",
                 "google": "",
@@ -845,7 +805,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541312960",
-                "type": "1",
+                "type": 1,
                 "name": "蔡尚均小兒科診所",
                 "line": "@ghw4279y",
                 "google": "",
@@ -865,7 +825,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3505350302",
-                "type": "1",
+                "type": 1,
                 "name": "劉伊薰小兒科診所",
                 "line": "062832111",
                 "google": "",
@@ -885,7 +845,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521020470",
-                "type": "1",
+                "type": 1,
                 "name": "林黑潮診所",
                 "line": "0985196302",
                 "google": "",
@@ -905,7 +865,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3505350428",
-                "type": "1",
+                "type": 1,
                 "name": "雨欣診所",
                 "line": "062832111",
                 "google": "",
@@ -925,7 +885,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3505370055",
-                "type": "1",
+                "type": 1,
                 "name": "杏安耳鼻喉科診所",
                 "line": "06-2550296",
                 "google": "",
@@ -945,7 +905,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3505370162",
-                "type": "1",
+                "type": 1,
                 "name": "李宗勳耳鼻喉科診所",
                 "line": "062502345",
                 "google": "",
@@ -965,7 +925,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541313172",
-                "type": "1",
+                "type": 1,
                 "name": "中正耳鼻喉科診所",
                 "line": "0975531138",
                 "google": "",
@@ -985,7 +945,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521071539",
-                "type": "1",
+                "type": 1,
                 "name": "同心小兒科診所",
                 "line": "0953662022",
                 "google": "",
@@ -1005,7 +965,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3543011920",
-                "type": "1",
+                "type": 1,
                 "name": "蘇耳鼻喉科診所",
                 "line": "drsu3507711",
                 "google": "",
@@ -1025,7 +985,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3505380266",
-                "type": "1",
+                "type": 1,
                 "name": "白袍旅人兒科診所",
                 "line": "@a800",
                 "google": "",
@@ -1045,7 +1005,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521011051",
-                "type": "1",
+                "type": 1,
                 "name": "吳美華小兒科診所",
                 "line": "@412juehk",
                 "google": "",
@@ -1065,7 +1025,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541200223",
-                "type": "1",
+                "type": 1,
                 "name": "愛欣診所",
                 "line": "0955282293",
                 "google": "",
@@ -1084,28 +1044,8 @@
         {
             "type": "Feature",
             "properties": {
-                "id": "3521020612",
-                "type": "1",
-                "name": "林大傑耳鼻喉科診所",
-                "line": "0960043010",
-                "google": "https:\/\/meet.google.com\/pah-czoo-kch",
-                "phone": "06 -2915660",
-                "address": "臺南市南區金華路二段171號",
-                "service_periods": "NNNNNNYNYNNNNYNNNNNYY"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.191295,
-                    22.981265
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "id": "3541311098",
-                "type": "1",
+                "type": 1,
                 "name": "許進賢耳鼻喉科診所",
                 "line": "2341818",
                 "google": "",
@@ -1125,7 +1065,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521052930",
-                "type": "1",
+                "type": 1,
                 "name": "小天使婦兒診所",
                 "line": "a2930888",
                 "google": "",
@@ -1145,7 +1085,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521042654",
-                "type": "2",
+                "type": 3,
                 "name": "許庭碩耳鼻喉科診所",
                 "phone": "06 -2282238",
                 "address": "臺南市北區和順里臨安路二段252號",
@@ -1163,7 +1103,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521020612",
-                "type": "2",
+                "type": 3,
                 "name": "林大傑耳鼻喉科診所",
                 "phone": "06 -2915660",
                 "address": "臺南市南區金華路二段171號",
@@ -1181,7 +1121,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541312559",
-                "type": "2",
+                "type": 2,
                 "name": "德安小兒科診所",
                 "phone": "06 -2032000",
                 "address": "臺南市永康區永康里永大路2段1538號",
@@ -1199,7 +1139,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521013751",
-                "type": "2",
+                "type": 3,
                 "name": "大河馬耳鼻喉科診所",
                 "phone": "06 -2751216",
                 "address": "臺南市東區東寧路230號",
@@ -1217,7 +1157,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3505280056",
-                "type": "2",
+                "type": 2,
                 "name": "林廷璋耳鼻喉科診所",
                 "phone": "06 -2309919",
                 "address": "臺南市歸仁區後市里民權三街96、98號",
@@ -1235,7 +1175,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541010523",
-                "type": "2",
+                "type": 2,
                 "name": "大川耳鼻喉科診所",
                 "phone": "06 -6337700",
                 "address": "臺南市新營區延平里延平路99號",
@@ -1253,7 +1193,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521012745",
-                "type": "2",
+                "type": 2,
                 "name": "喜樂小兒科診所",
                 "phone": "06 -2757869",
                 "address": "臺南市東區東光路1段106號",
@@ -1271,7 +1211,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521031722",
-                "type": "2",
+                "type": 2,
                 "name": "呂宗禧耳鼻喉科診所",
                 "phone": "06 -2282155",
                 "address": "臺南市中西區民權路1段261號",
@@ -1289,7 +1229,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3505320331",
-                "type": "2",
+                "type": 2,
                 "name": "楊博文耳鼻喉科診所",
                 "phone": "06 -2903911",
                 "address": "臺南市東區崇善里仁和路76－8號",
@@ -1307,7 +1247,7 @@
             "type": "Feature",
             "properties": {
                 "id": "0121050011",
-                "type": "2",
+                "type": 2,
                 "name": "衛生福利部臺南醫院",
                 "phone": "06 -2200055",
                 "address": "臺南市中西區中山路125號",
@@ -1325,7 +1265,7 @@
             "type": "Feature",
             "properties": {
                 "id": "1121010018",
-                "type": "2",
+                "type": 2,
                 "name": "台灣基督長老教會新樓醫療財團法人台南新樓醫院",
                 "phone": "06 -2748316",
                 "address": "臺南市東區泉北里東門路1段57號",
@@ -1343,7 +1283,7 @@
             "type": "Feature",
             "properties": {
                 "id": "0905320023",
-                "type": "2",
+                "type": 2,
                 "name": "台南市立醫院(委託秀傳醫療社團法人經營)",
                 "phone": "06 -2609926",
                 "address": "臺南市東區崇德路670號",
@@ -1361,7 +1301,7 @@
             "type": "Feature",
             "properties": {
                 "id": "0421040011",
-                "type": "2",
+                "type": 2,
                 "name": "國立成功大學醫學院附設醫院",
                 "phone": "06 -2353535",
                 "address": "臺南市北區勝利路138號",
@@ -1379,7 +1319,7 @@
             "type": "Feature",
             "properties": {
                 "id": "1305370013",
-                "type": "2",
+                "type": 2,
                 "name": "臺南市立安南醫院-委託中國醫藥大學興建經營",
                 "phone": "06 -3553111",
                 "address": "臺南市安南區長和路二段66號",
@@ -1397,7 +1337,7 @@
             "type": "Feature",
             "properties": {
                 "id": "0641310018",
-                "type": "2",
+                "type": 2,
                 "name": "高雄榮民總醫院臺南分院",
                 "phone": "06 -3125101",
                 "address": "臺南市永康區復興里復興路427號",
@@ -1415,7 +1355,7 @@
             "type": "Feature",
             "properties": {
                 "id": "1141310019",
-                "type": "2",
+                "type": 2,
                 "name": "奇美醫療財團法人奇美醫院",
                 "phone": "06 -2812811",
                 "address": "臺南市永康區中華路901號",
@@ -1433,7 +1373,7 @@
             "type": "Feature",
             "properties": {
                 "id": "0141060513",
-                "type": "2",
+                "type": 2,
                 "name": "衛生福利部臺南醫院新化分院",
                 "phone": "06 -5911929",
                 "address": "臺南市新化區那拔里牧場72號",
@@ -1451,7 +1391,7 @@
             "type": "Feature",
             "properties": {
                 "id": "0141270019",
-                "type": "2",
+                "type": 2,
                 "name": "衛生福利部胸腔病院",
                 "phone": "06 -2705911",
                 "address": "臺南市仁德區中山路864號",
@@ -1469,7 +1409,7 @@
             "type": "Feature",
             "properties": {
                 "id": "1105040016",
-                "type": "2",
+                "type": 2,
                 "name": "台灣基督長老教會新樓醫療財團法人麻豆新樓醫院",
                 "phone": "06 -5702228",
                 "address": "臺南市麻豆區麻佳路一段207號",
@@ -1487,7 +1427,7 @@
             "type": "Feature",
             "properties": {
                 "id": "1105050012",
-                "type": "2",
+                "type": 2,
                 "name": "奇美醫療財團法人佳里奇美醫院",
                 "phone": "06 -7263333",
                 "address": "臺南市佳里區佳興里佳里興606號",
@@ -1505,7 +1445,7 @@
             "type": "Feature",
             "properties": {
                 "id": "0141010013",
-                "type": "2",
+                "type": 2,
                 "name": "衛生福利部新營醫院",
                 "phone": "06 -6351131",
                 "address": "臺南市新營區信義街73號",
@@ -1523,7 +1463,7 @@
             "type": "Feature",
             "properties": {
                 "id": "1141090512",
-                "type": "2",
+                "type": 2,
                 "name": "奇美醫療財團法人柳營奇美醫院",
                 "phone": "06 -6226999",
                 "address": "臺南市柳營區太康里201號",

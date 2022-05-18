@@ -27,12 +27,18 @@ function pointStyleFunction(f) {
     });
     radius = 15;
   }
-  if (p.type == 1) {
-    color = '#48c774';
-    typeText = '視訊';
-  } else {
-    color = '#c74874';
-    typeText = 'PCR';
+  switch (p.type) {
+    case 1:
+      color = '#48c774';
+      typeText = '視訊';
+      break;
+    case 2:
+      color = '#c74874';
+      typeText = 'PCR';
+      break;
+    case 3:
+      color = '#c74874';
+      typeText = '視訊+PCR';
   }
 
   return new ol.style.Style({
