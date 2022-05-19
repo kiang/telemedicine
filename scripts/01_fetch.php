@@ -11,3 +11,6 @@ while (false !== $pos) {
     file_put_contents($rawPath . '/' . $fileNames[2] . '.ods', file_get_contents($parts[1]));
     $pos = strpos($page, 'class="ods"', $posEnd);
 }
+
+$formFile = $rawPath . '/google_form.csv';
+file_put_contents($formFile, file_get_contents('https://docs.google.com/spreadsheets/d/1vbljuv7yI_IGf47Q-CNjOhbrBVq18tgZKiitlVx6FOQ/export?format=csv'));

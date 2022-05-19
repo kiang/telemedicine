@@ -31,6 +31,16 @@ if (!file_exists($jsonPath)) {
     mkdir($jsonPath, 0777, true);
 }
 
+$formFile = $rawPath . '/google_form.csv';
+$fh = fopen($formFile, 'r');
+fgetcsv($fh, 2048);
+$userInput = [];
+while ($line = fgetcsv($fh, 2048)) {
+    if (!empty($line[1])) {
+        $userInput[$line[1]] = $line;
+    }
+}
+
 $errorCount = 0;
 $lineCount = 0;
 $filesPool = ['醫院.ods', '診所.ods'];
@@ -97,17 +107,38 @@ foreach ($filesPool as $odsFile) {
             if (!empty($json['AddressList'][0]['X'])) {
                 $pointFound = true;
                 $key = $code = $line[3];
+                $fType = 1; // default
+                $imLine = $imGoogle = $url = $note = '';
+                if (isset($userInput[$code])) {
+                    if ($userInput[$code][2] === '是') {
+                        $fType = 2; // confirmed it has the service
+                        $url = $userInput[$code][3];
+                        $imLine = $userInput[$code][4];
+                        $imGoogle = $userInput[$code][5];
+                        $note = $userInput[$code][6];
+                    }
+                }
+                if (isset($meta[$code])) {
+                    $fType = 2; // confirmed it has the service
+                    $imLine = $meta[$code]['line'];
+                    $imGoogle = $meta[$code]['google'];
+                }
+                if (empty($note)) {
+                    $note = $line[7];
+                }
                 $fc['features'][] = [
                     'type' => 'Feature',
                     'properties' => [
                         'id' => $line[3],
+                        'type' => $fType,
                         'name' => $line[4],
                         'phone' => $line[5],
                         'address' => $line[6],
-                        'note' => $line[7],
+                        'note' => $note,
                         'service_periods' => isset($pool[$key]) ? $pool[$key][5] : '',
-                        'line' => isset($meta[$code]) ? $meta[$code]['line'] : '',
-                        'google' => isset($meta[$code]) ? $meta[$code]['google'] : '',
+                        'url' => $url,
+                        'line' => $imLine,
+                        'google' => $imGoogle,
                     ],
                     'geometry' => [
                         'type' => 'Point',
