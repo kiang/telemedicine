@@ -76,45 +76,45 @@ while ($line = fgetcsv($fh, 2048)) {
     foreach ($line as $k => $v) {
         $line[$k] = trim($v);
     }
-    switch ($line[0]) {
+    switch ($line[1]) {
         case '陳信宏小兒科':
-            $line[0] = '陳信宏小兒科診所';
+            $line[1] = '陳信宏小兒科診所';
             break;
         case '路加小兒科':
-            $line[0] = '路加小兒科診所';
+            $line[1] = '路加小兒科診所';
             break;
         case '悅恩小兒科（樂恩聯合診所）':
-            $line[0] = '悅恩小兒科診所（樂恩聯合診所）';
+            $line[1] = '悅恩小兒科診所（樂恩聯合診所）';
             break;
         case '康庭小兒科（樂恩聯合診所）':
-            $line[0] = '康庭小兒科診所（樂恩聯合診所）';
+            $line[1] = '康庭小兒科診所（樂恩聯合診所）';
             break;
         case '蔡廸光小兒科診所':
-            $line[0] = '蔡迪光小兒科診所';
+            $line[1] = '蔡迪光小兒科診所';
             break;
         case '富儿康診所':
-            $line[0] = '富ㄦ康診所';
+            $line[1] = '富ㄦ康診所';
             break;
         case '賴俊良診所':
-            $line[0] = '賴俊良骨外科診所';
+            $line[1] = '賴俊良骨外科診所';
             break;
         case '呂怡璋小兒科':
-            $line[0] = '呂怡璋小兒科診所';
+            $line[1] = '呂怡璋小兒科診所';
             break;
         case '蔡尚均小兒科￼':
-            $line[0] = '蔡尚均小兒科診所';
+            $line[1] = '蔡尚均小兒科診所';
             break;
         case '劉伊薰小兒科':
-            $line[0] = '劉伊薰小兒科診所';
+            $line[1] = '劉伊薰小兒科診所';
             break;
         case '平安聯合診所（白袍旅人兒科）':
-            $line[0] = '白袍旅人兒科診所';
+            $line[1] = '白袍旅人兒科診所';
             break;
         case '吳美華小兒科':
-            $line[0] = '吳美華小兒科診所';
+            $line[1] = '吳美華小兒科診所';
             break;
     }
-    $key = $line[0];
+    $key = $line[1];
     if (isset($pool[$key]) && !isset($duplicatedCheck[$key])) {
         $duplicatedCheck[$key] = true;
         $code = $pool[$key]['info'][0];
