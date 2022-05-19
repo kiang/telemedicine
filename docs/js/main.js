@@ -27,7 +27,12 @@ function pointStyleFunction(f) {
     });
     radius = 15;
   }
-  color = '#48c774';
+  if (p.type == 2) {
+    color = '#48c774';
+  } else {
+    color = '#cccccc';
+  }
+
   return new ol.style.Style({
     image: new ol.style.RegularShape({
       radius: radius,
@@ -127,11 +132,14 @@ function showPoint(pointId) {
       message += '<tr><th scope="row" style="width: 100px;">名稱</th><td>';
       message += '<a href="http://www.nhi.gov.tw/QueryN/Query3_Detail.aspx?HospID=' + p.id + '" target="_blank">' + p.name + '</a>';
       message += '</td></tr>';
+      if (p.url && p.url !== '') {
+        message += '<tr><th scope="row">URL</th><td><a href="' + p.url + '" target="_blank">' + p.url + '</a></td></tr>';
+      }
       if (p.line && p.line !== '') {
-        message += '<tr><th scope="row">LINE</th><td>' + p.line.replace(/\\n/g, '<br />') + '</td></tr>';
+        message += '<tr><th scope="row">LINE</th><td>' + p.line + '</td></tr>';
       }
       if (p.google && p.google !== '') {
-        message += '<tr><th scope="row">Google</th><td>' + p.google.replace(/\\n/g, '<br />') + '</td></tr>';
+        message += '<tr><th scope="row">Google</th><td>' + p.google + '</td></tr>';
       }
       if (p.note) {
         message += '<tr><th scope="row">備註</th><td>' + p.note.replace(/\\n/g, '<br />') + '</td></tr>';
