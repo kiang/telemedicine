@@ -139,6 +139,9 @@ function showPoint(pointId) {
       message += '<tr><th scope="row">電話</th><td>' + p.phone + '</td></tr>';
       message += '<tr><th scope="row">住址</th><td>' + p.address + '</td></tr>';
       message += '<tr><td colspan="2">';
+      message += '<a href="https://docs.google.com/forms/d/e/1FAIpQLSexx0C-Xoexj-qgSbbsifP87mPt_6arJ1azA-7YSGmWAmL9Ew/viewform?usp=pp_url&entry.689862107=' + p.id + '" target="_blank" class="btn btn-info btn-lg btn-block">修正或補充</a>';
+      message += '</td></tr>';
+      message += '<tr><td colspan="2">';
       if (p.service_periods != '') {
         var sParts = p.service_periods.split('');
         message += '<table class="table table-bordered text-center" style="color: black;">';
