@@ -344,6 +344,26 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "3543211073",
+                "type": 1,
+                "name": "大佳診所",
+                "line": "06-2546688",
+                "google": "0979186046",
+                "phone": "08 -8666680",
+                "address": "屏東縣佳冬鄉佳冬村佳和路98-6號",
+                "service_periods": "NNNNNNYNNYNNNYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.549633,
+                    22.41512
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "id": "3541313172",
                 "type": 1,
                 "name": "中正耳鼻喉科診所",
