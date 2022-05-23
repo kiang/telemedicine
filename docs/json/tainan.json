@@ -184,6 +184,26 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "3541190035",
+                "type": 1,
+                "name": "大立診所",
+                "line": "06-7860090",
+                "google": "@348gwsuz",
+                "phone": "06 -7860090",
+                "address": "臺南市北門區北門里72號",
+                "service_periods": "NNNNNNYNNNNNYYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.124859,
+                    23.267258
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "id": "3521042609",
                 "type": 1,
                 "name": "海安小兒科診所",
@@ -378,26 +398,6 @@
                 "coordinates": [
                     120.207567,
                     22.999265
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "3541190035",
-                "type": 1,
-                "name": "大立診所",
-                "line": "06-7860090",
-                "google": "@348gwsuz",
-                "phone": "06 -7860090",
-                "address": "臺南市北門區北門里72號",
-                "service_periods": "NNNNNNYNNNNNYYYYYYYYY"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.124859,
-                    23.267258
                 ]
             }
         },
