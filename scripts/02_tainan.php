@@ -14,6 +14,9 @@ $info = [];
 foreach ($nhiFiles as $nhiFile) {
     $fh = fopen($nhiFile, 'r');
     while ($line = fgetcsv($fh, 2048)) {
+        if (false === strpos($line[4], '臺南市')) {
+            continue;
+        }
         $info[$line[0]] = $line;
     }
 }
@@ -36,10 +39,13 @@ $fh = fopen($rawFile, 'r');
 $header = fgetcsv($fh, 2048);
 $pool = [];
 while ($line = fgetcsv($fh, 2048)) {
+    if (!isset($info[$line[0]])) {
+        continue;
+    }
     $key = $line[1];
     $pool[$key] = [
         'meta' => $line,
-        'info' => isset($info[$line[0]]) ? $info[$line[0]] : [],
+        'info' => $info[$line[0]],
     ];
 }
 

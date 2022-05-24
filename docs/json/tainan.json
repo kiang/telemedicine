@@ -4,6 +4,26 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "3505170028",
+                "type": 1,
+                "name": "立安診所",
+                "line": "06-7873735",
+                "google": "@838jrhnl",
+                "phone": "06 -7873735",
+                "address": "臺南市七股區大埕里大埕322－12號",
+                "service_periods": "NNNNNNYYYYYYYYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.141302,
+                    23.14195
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "id": "3505120037",
                 "type": 1,
                 "name": "晨祐診所",
@@ -124,6 +144,146 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "1521051160",
+                "type": 1,
+                "name": "永和醫院",
+                "line": "06-2231191",
+                "google": "yungho560",
+                "phone": "06 -2231191",
+                "address": "臺南市中區福安里府前路一段304巷2號",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.199107,
+                    22.990469
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3505340226",
+                "type": 1,
+                "name": "陳俊達小兒科診所",
+                "line": "06-2221867",
+                "google": "62221867",
+                "phone": "06 -2221867",
+                "address": "臺南市中西區中山路19、21、21－1號",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.211091,
+                    22.99691
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3521030494",
+                "type": 1,
+                "name": "張富全診所",
+                "line": "06-2220516",
+                "google": "@795efwxa",
+                "phone": "06 -2220516",
+                "address": "臺南市中西區永華路198號",
+                "service_periods": "NNNNNNYNNNNNNYNYYNYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.191583,
+                    22.98838
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3521030467",
+                "type": 1,
+                "name": "湖美耳鼻喉科診所",
+                "line": "06-2801561",
+                "google": "@869trzpo",
+                "phone": "06 -2801561",
+                "address": "臺南市西區湖美街215巷9號",
+                "service_periods": "NNNYNNNNNNYNYYNNNYNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.179648,
+                    23.003643
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3521051528",
+                "type": 1,
+                "name": "張永昌小兒科診所",
+                "line": "06-2292360",
+                "google": "@500bkzyx",
+                "phone": "06 -2292360",
+                "address": "臺南市中西區新美街66之1號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.200453,
+                    22.995312
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3521030378",
+                "type": 1,
+                "name": "李朝泰小兒科診所",
+                "line": "06-2256618",
+                "google": "987434350",
+                "phone": "06 -2256618",
+                "address": "臺南市中西區普濟里成功路319號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.200418,
+                    22.999849
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3521052838",
+                "type": 1,
+                "name": "康健內兒科診所",
+                "line": "06-2146928",
+                "google": "@526ldpce",
+                "phone": "06 -2146929",
+                "address": "臺南市中西區健康路一段176號",
+                "service_periods": "NNNNNNYNNNNNNYNYNYNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.206827,
+                    22.981476
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "id": "3541270501",
                 "type": 1,
                 "name": "趙俊凱耳鼻喉科診所",
@@ -178,6 +338,86 @@
                 "coordinates": [
                     120.253448,
                     22.962916
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3505270087",
+                "type": 1,
+                "name": "協和家醫科診所",
+                "line": "06-2701507",
+                "google": "985504331",
+                "phone": "06 -2701507",
+                "address": "臺南市仁德區仁德里中正路三段79號",
+                "service_periods": "NNNNNNYNNYNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.252574,
+                    22.973896
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541270341",
+                "type": 1,
+                "name": "郭得景耳鼻喉科診所",
+                "line": "06-2706364",
+                "google": "kuoteent",
+                "phone": "06 -2706364",
+                "address": "臺南市仁德區中山路450號",
+                "service_periods": "NNNNNNYYYYYYYYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.255204,
+                    22.971353
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541270314",
+                "type": 1,
+                "name": "三華診所",
+                "line": "06-2731826",
+                "google": "kuan-hua.chang",
+                "phone": "06 -2731826",
+                "address": "臺南市仁德區太子里太子路142號",
+                "service_periods": "NNNNNNYNNNNNYYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.263112,
+                    22.991444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541130084",
+                "type": 1,
+                "name": "民生診所",
+                "line": "06-6986015",
+                "google": "liu195502",
+                "phone": "06 -6986015",
+                "address": "臺南市六甲區六甲里中正路531號",
+                "service_periods": "NNYNNNYNNYNNNYNNYNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.351375,
+                    23.231106
                 ]
             }
         },
@@ -244,26 +484,6 @@
         {
             "type": "Feature",
             "properties": {
-                "id": "3511012135",
-                "type": 1,
-                "name": "傅耳鼻喉科診所",
-                "line": "06-2507089",
-                "google": "0975429420",
-                "phone": "02 -24284955",
-                "address": "基隆市中正區義一路33號",
-                "service_periods": "NNNNNNYNNNYNNYNNNYNNY"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.745517,
-                    25.133067
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "id": "3505350302",
                 "type": 1,
                 "name": "劉伊薰小兒科診所",
@@ -304,20 +524,20 @@
         {
             "type": "Feature",
             "properties": {
-                "id": "3543011920",
+                "id": "3521042538",
                 "type": 1,
                 "name": "蘇耳鼻喉科診所",
                 "line": "06-3507711",
                 "google": "drsu3507711",
-                "phone": "08 -7653056",
-                "address": "屏東縣屏東市永福路56號",
-                "service_periods": "NNNYNNYNNNNNNYNNNNNYY"
+                "phone": "06 -3507711",
+                "address": "臺南市北區大豐里文賢路261、263號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.488664,
-                    22.671567
+                    120.193717,
+                    23.009553
                 ]
             }
         },
@@ -418,6 +638,106 @@
                 "coordinates": [
                     120.198375,
                     23.019783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3505350142",
+                "type": 1,
+                "name": "永昌診所",
+                "line": "06-2374841",
+                "google": "971305519",
+                "phone": "06 -2374841",
+                "address": "臺南市北區開元路95號",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.217501,
+                    23.006497
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3521040552",
+                "type": 1,
+                "name": "楊宏義小兒科診所",
+                "line": "06-2742678",
+                "google": "916778516",
+                "phone": "06 -2742678",
+                "address": "臺南市北區國興里開元路426號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.22582,
+                    23.010748
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3521040838",
+                "type": 1,
+                "name": "陳文峯耳鼻喉科診所",
+                "line": "06-2833398",
+                "google": "62833398",
+                "phone": "06 -2833398",
+                "address": "臺南市北區正覺里公園路703號",
+                "service_periods": "NNNNNNNNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.214586,
+                    23.016742
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3521040203",
+                "type": 1,
+                "name": "方崇名婦產科診所",
+                "line": "06-2810123",
+                "google": "919788010",
+                "phone": "06 -2810123",
+                "address": "臺南市北區公園路619號",
+                "service_periods": "NNNNNNYNYNYNYYNNNYNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.213264,
+                    23.015162
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3521042985",
+                "type": 1,
+                "name": "安康耳鼻喉科診所",
+                "line": "06-2525889",
+                "google": "62525889",
+                "phone": "06 -2525889",
+                "address": "臺南市北區成功里海安路3段718號",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.200036,
+                    23.016106
                 ]
             }
         },
@@ -584,40 +904,40 @@
         {
             "type": "Feature",
             "properties": {
-                "id": "3543190186",
+                "id": "3541310902",
                 "type": 1,
                 "name": "鄭耳鼻喉科診所",
                 "line": "06-2721231",
                 "google": "062721231",
-                "phone": "08 -8751900",
-                "address": "屏東縣林邊鄉永樂村中山路184號",
-                "service_periods": "NNNNNNYNYNNNYYYYYYYYY"
+                "phone": "06 -2721231",
+                "address": "臺南市永康區崑山里大灣路798巷12號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.514883,
-                    22.43467
+                    120.258878,
+                    23.000716
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "id": "3543211073",
+                "id": "3505310059",
                 "type": 1,
                 "name": "大佳診所",
                 "line": "06-2546688",
                 "google": "0979186046",
-                "phone": "08 -8666680",
-                "address": "屏東縣佳冬鄉佳冬村佳和路98-6號",
-                "service_periods": "NNNNNNYNNYNNNYYYYYYYY"
+                "phone": "06 -2546688",
+                "address": "臺南市永康區中正南路815號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.549633,
-                    22.41512
+                    120.236286,
+                    23.04077
                 ]
             }
         },
@@ -698,6 +1018,186 @@
                 "coordinates": [
                     120.256075,
                     23.029796
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3505310531",
+                "type": 1,
+                "name": "敏修診所",
+                "line": "06-3120018",
+                "google": "stupidkuei",
+                "phone": "06 -3120018",
+                "address": "臺南市永康區建國里復國路73號",
+                "service_periods": "NYNNNNYNNYNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.24623,
+                    23.000727
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3505310166",
+                "type": 1,
+                "name": "富國耳鼻喉科診所",
+                "line": "06-3122111",
+                "google": "@673uzskm",
+                "phone": "06 -3123111",
+                "address": "臺南市永康區復國里復國一路192號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.246246,
+                    23.006266
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541310788",
+                "type": 1,
+                "name": "鄭飛良診所",
+                "line": "06-2733337",
+                "google": "955668559",
+                "phone": "06 -2733337",
+                "address": "臺南市永康區大灣里大灣路728號",
+                "service_periods": "NNNNNNNNNNNNYYNNYNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.266552,
+                    23.005438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541311203",
+                "type": 1,
+                "name": "光田診所",
+                "line": "06-2425866",
+                "google": "@883dlxgd",
+                "phone": "06 -2425866",
+                "address": "臺南市永康區鹽行里中正路535號",
+                "service_periods": "NNNNNYYNNNNNYNNYYYYYN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.239076,
+                    23.039311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541310377",
+                "type": 1,
+                "name": "許崇哲耳鼻喉科診所",
+                "line": "06-2314815",
+                "google": "2314815",
+                "phone": "06 -2314815",
+                "address": "臺南市永康區六合里中山南路126號",
+                "service_periods": "NNNNNNNNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.230181,
+                    23.013175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541311123",
+                "type": 1,
+                "name": "張耀仁小兒科診所",
+                "line": "06-2010199",
+                "google": "447ｒ",
+                "phone": "06 -2010199",
+                "address": "臺南市永康區復國一路447號",
+                "service_periods": "NNNNYNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.245417,
+                    23.014417
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541310733",
+                "type": 1,
+                "name": "鹽行診所",
+                "line": "06-2530465",
+                "google": "yh-clinic",
+                "phone": "06 -2530465",
+                "address": "臺南市永康區鹽洲里中正南路859號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.237042,
+                    23.041006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541312915",
+                "type": 1,
+                "name": "黃仲銘診所",
+                "line": "06-2733268",
+                "google": "chungming huang",
+                "phone": "06 -2733268",
+                "address": "臺南市永康區大灣五街37號",
+                "service_periods": "NNNNNNYNNNNNYYYYYYYYN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.265974,
+                    23.006806
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3505030038",
+                "type": 1,
+                "name": "安聯診所",
+                "line": "6852555#111",
+                "google": "dr729",
+                "phone": "06 -6852555",
+                "address": "臺南市白河區白河里富民路62號",
+                "service_periods": "NNNNNNYNNNNNYYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.415953,
+                    23.344826
                 ]
             }
         },
@@ -924,6 +1424,126 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "3505370037",
+                "type": 1,
+                "name": "蔡友謙小兒科診所",
+                "line": "06-2809292",
+                "google": "@243xojkv",
+                "phone": "06 -2809292",
+                "address": "臺南市安南區溪墘里郡安路五段227號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.192069,
+                    23.029015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3505370108",
+                "type": 1,
+                "name": "蔡清祥小兒科診所",
+                "line": "06-2477127",
+                "google": "@325dtddy",
+                "phone": "06 -2477127",
+                "address": "臺南市安南區海東里同安路46號",
+                "service_periods": "NNNNNNYNNNYNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.188908,
+                    23.039618
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3521062245",
+                "type": 1,
+                "name": "林志哲診所",
+                "line": "06-2476907",
+                "google": "092816054,8",
+                "phone": "06 -2476907",
+                "address": "臺南市安南區海佃路二段742號",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.185519,
+                    23.045293
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3521062423",
+                "type": 1,
+                "name": "海東小兒科診所",
+                "line": "06-2561399",
+                "google": "xdenzel",
+                "phone": "06 -2561399",
+                "address": "臺南市安南區安中路3段355號",
+                "service_periods": "NNNYNNYNNNYNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.176042,
+                    23.048703
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3505370206",
+                "type": 1,
+                "name": "安南高家醫診所",
+                "line": "06-2475699",
+                "google": "62475699",
+                "phone": "06 -2475699",
+                "address": "臺南市安南區溪心里安中路二段166、168號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.184032,
+                    23.047239
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541160082",
+                "type": 1,
+                "name": "徐春暉診所",
+                "line": "06-7961193",
+                "google": "928570860",
+                "phone": "06 -7961193",
+                "address": "臺南市西港區慶安路95之8號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.200863,
+                    23.12056
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "id": "3505050138",
                 "type": 1,
                 "name": "馬博榮婦產專科診所",
@@ -978,6 +1598,66 @@
                 "coordinates": [
                     120.179467,
                     23.155034
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3505050183",
+                "type": 1,
+                "name": "佳安診所",
+                "line": "06-7237768",
+                "google": "@947laijo",
+                "phone": "06 -7237768",
+                "address": "臺南市佳里區忠仁里中山路188號",
+                "service_periods": "NNNNNNNNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.177228,
+                    23.158967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541050330",
+                "type": 1,
+                "name": "吳志昶耳鼻喉科診所",
+                "line": "06-7235182",
+                "google": "@163jmroj",
+                "phone": "06 -7235182",
+                "address": "臺南市佳里區東寧里延平路356號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.178415,
+                    23.162233
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541050349",
+                "type": 1,
+                "name": "賴建利小兒科診所",
+                "line": "06-7212233",
+                "google": "0919-610380",
+                "phone": "06 -7212233",
+                "address": "臺南市佳里區忠仁里延平路280號",
+                "service_periods": "NNNNNYYNNNNNYYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.178551,
+                    23.160205
                 ]
             }
         },
@@ -1224,6 +1904,186 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "3505320788",
+                "type": 1,
+                "name": "安佑家庭醫學科診所",
+                "line": "06-3358868",
+                "google": "@dr8585",
+                "phone": "06 -3358868",
+                "address": "臺南市東區崇德里崇善路438號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.22918,
+                    22.973756
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3521011435",
+                "type": 1,
+                "name": "徐慶鐘小兒科診所",
+                "line": "06-2369954",
+                "google": "clockhsu",
+                "phone": "06 -2369954",
+                "address": "臺南市東區長榮路二段306號",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.221654,
+                    22.991342
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3521011097",
+                "type": 1,
+                "name": "謝明憲內科診所",
+                "line": "06-2086360",
+                "google": "mshsieh711",
+                "phone": "06 -2086360",
+                "address": "臺南市東區中西里長榮路2段93號",
+                "service_periods": "NNNNNNYNNNNNYYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.220648,
+                    22.990492
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3521011220",
+                "type": 1,
+                "name": "黃智毅耳鼻喉科診所",
+                "line": "06-2603659",
+                "google": "@249fkukx",
+                "phone": "06 -2603659",
+                "address": "臺南市東區德光里崇學路149之1號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.222913,
+                    22.979749
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3521013680",
+                "type": 1,
+                "name": "佳一家庭診所",
+                "line": "06-2360513",
+                "google": "2360513",
+                "phone": "06 -2360513",
+                "address": "臺南市東區東光路1段132號",
+                "service_periods": "NNNNNYNNYNNNYNNYNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.23145,
+                    22.994752
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3505320564",
+                "type": 1,
+                "name": "長榮骨外科診所",
+                "line": "06-2351599",
+                "google": "919632578",
+                "phone": "06 -2351599",
+                "address": "臺南市東區中西里林森路二段93號",
+                "service_periods": "NNNNNNYNNNNNYNNNNNNYN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.223585,
+                    22.989322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3521011480",
+                "type": 1,
+                "name": "石荃小兒科診所",
+                "line": "06-3363558",
+                "google": "63363558",
+                "phone": "06 -3363558",
+                "address": "臺南市東區文聖里裕農1街158號",
+                "service_periods": "NNYNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.240835,
+                    22.98457
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3505320804",
+                "type": 1,
+                "name": "冠安內科診所",
+                "line": "06-2088985",
+                "google": "62088985",
+                "phone": "06 -2088985",
+                "address": "臺南市東區龍山里長榮路1段182號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.218239,
+                    22.984563
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3505320279",
+                "type": 1,
+                "name": "群安診所",
+                "line": "06-2377919",
+                "google": "SKYPE, whereby (利用網址視訊，不須下載程式)",
+                "phone": "06 -2377919",
+                "address": "臺南市東區東光里東寧路263號",
+                "service_periods": "NNNNNYYNNNNNYYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.228629,
+                    22.989996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "id": "3505330088",
                 "type": 1,
                 "name": "青禾診所",
@@ -1304,6 +2164,46 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "3521022376",
+                "type": 1,
+                "name": "欣悅診所",
+                "line": "06-2616266",
+                "google": "@832rbqhj",
+                "phone": "06 -2616266",
+                "address": "臺南市南區田寮里新興路159號",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.194873,
+                    22.977813
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541090101",
+                "type": 1,
+                "name": "蔡瑞頒診所",
+                "line": "06-6224466",
+                "google": "932846421",
+                "phone": "06 -6224466",
+                "address": "臺南市柳營區光福里成功街210號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.313373,
+                    23.278623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "id": "3541041493",
                 "type": 1,
                 "name": "陳信宏小兒科診所",
@@ -1338,6 +2238,86 @@
                 "coordinates": [
                     120.255329,
                     23.182148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541041368",
+                "type": 1,
+                "name": "哲賓耳鼻喉科診所",
+                "line": "06-5713511",
+                "google": "65713511",
+                "phone": "06 -5713511",
+                "address": "臺南市麻豆區中興里興國路16之1號",
+                "service_periods": "NNNNYNNNNNNYNYNNNNYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.247801,
+                    23.18211
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541041519",
+                "type": 1,
+                "name": "周蓁佑復健科診所",
+                "line": "06-5715811",
+                "google": "@469itrbm （搜尋 怡佑聯合診所）",
+                "phone": "06 -5715811",
+                "address": "臺南市麻豆區晉江里民權路16－6號",
+                "service_periods": "NNNNNYYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.251354,
+                    23.181507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541041457",
+                "type": 1,
+                "name": "快樂診所",
+                "line": "06-5714606",
+                "google": "65714606",
+                "phone": "06 -5714606",
+                "address": "臺南市麻豆區民權路22－5號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.251403,
+                    23.180873
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3505070032",
+                "type": 1,
+                "name": "誼仁診所",
+                "line": "06-5817267",
+                "google": "@yijenclinic",
+                "phone": "06 -5817267",
+                "address": "臺南市善化區文昌里中正路387號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.293978,
+                    23.127838
                 ]
             }
         },
@@ -1424,6 +2404,26 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "3541061682",
+                "type": 1,
+                "name": "劉琳榕小兒科診所",
+                "line": "06-5970088",
+                "google": "5970088",
+                "phone": "06 -5970088",
+                "address": "臺南市新化區太平里忠孝路118、120、122號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.303591,
+                    23.037851
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "id": "3541201319",
                 "type": 1,
                 "name": "佳安小兒科診所",
@@ -1458,6 +2458,26 @@
                 "coordinates": [
                     120.291265,
                     23.077805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541200232",
+                "type": 1,
+                "name": "宗詰診所",
+                "line": "06-5991829",
+                "google": "919851667",
+                "phone": "06 -5991829",
+                "address": "臺南市新市區港墘里光華街38號",
+                "service_periods": "NNNNNYYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.297831,
+                    23.072982
                 ]
             }
         },
@@ -1524,6 +2544,106 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "3505010036",
+                "type": 1,
+                "name": "陳俊達家醫科診所",
+                "line": "06-6321211",
+                "google": "s851091@yahoo.com.tw",
+                "phone": "06 -6321211",
+                "address": "臺南市新營區大宏里民治路9號",
+                "service_periods": "NNNNNNYNNYNNYNNNYNNYN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.320575,
+                    23.310824
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541010550",
+                "type": 1,
+                "name": "邱俊陽診所",
+                "line": "06-6322691",
+                "google": "66322691",
+                "phone": "06 -6322691",
+                "address": "臺南市新營區大宏里大同路45號",
+                "service_periods": "NNNNNNYNNNYNYYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.322398,
+                    23.310756
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541010756",
+                "type": 1,
+                "name": "沈士穎小兒科診所",
+                "line": "06-6350477",
+                "google": "@770hetzf",
+                "phone": "06 -6350477",
+                "address": "臺南市新營區南興里延平路122之6號",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.313154,
+                    23.298705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541012063",
+                "type": 1,
+                "name": "慈恩診所",
+                "line": "06-6373229",
+                "google": "939746063",
+                "phone": "06 -6373229",
+                "address": "臺南市新營區民族路75號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.318416,
+                    23.312322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541080196",
+                "type": 1,
+                "name": "全美診所",
+                "line": "06-7835119",
+                "google": "930341991",
+                "phone": "06 -7835119",
+                "address": "臺南市學甲區華宗路373號",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.182094,
+                    23.232327
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "id": "3541281675",
                 "type": 1,
                 "name": "洪志旺耳鼻喉科診所",
@@ -1584,6 +2704,26 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "3541280052",
+                "type": 1,
+                "name": "吳國榮聯合診所",
+                "line": "06-2306239",
+                "google": "956299056",
+                "phone": "06 -2306239",
+                "address": "臺南市歸仁區後市里中山路二段52號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.292584,
+                    22.96704
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "id": "3541291171",
                 "type": 1,
                 "name": "佑康診所",
@@ -1618,6 +2758,46 @@
                 "coordinates": [
                     120.330557,
                     22.95906
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3541291180",
+                "type": 1,
+                "name": "林大凱耳鼻喉科診所",
+                "line": "06-5963685",
+                "google": "@155micmb",
+                "phone": "06 -5963685",
+                "address": "臺南市關廟區關廟里中山路二段137－9號",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.32583,
+                    22.960121
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3505290089",
+                "type": 1,
+                "name": "盈泰診所",
+                "line": "06-5962777",
+                "google": "yt12607",
+                "phone": "06 -5962777",
+                "address": "臺南市關廟區山西里中正路1023、1025號",
+                "service_periods": "NNNNNNYNNNNNYYNNYNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.326412,
+                    22.962989
                 ]
             }
         },
@@ -1697,7 +2877,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3505280056",
-                "type": 2,
+                "type": 3,
                 "name": "林廷璋耳鼻喉科診所",
                 "phone": "06 -2309919",
                 "address": "臺南市歸仁區後市里民權三街96、98號",
@@ -1715,7 +2895,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3541010523",
-                "type": 2,
+                "type": 3,
                 "name": "大川耳鼻喉科診所",
                 "phone": "06 -6337700",
                 "address": "臺南市新營區延平里延平路99號",
@@ -1751,7 +2931,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3521031722",
-                "type": 2,
+                "type": 3,
                 "name": "呂宗禧耳鼻喉科診所",
                 "phone": "06 -2282155",
                 "address": "臺南市中西區民權路1段261號",
@@ -1769,7 +2949,7 @@
             "type": "Feature",
             "properties": {
                 "id": "3505320331",
-                "type": 2,
+                "type": 3,
                 "name": "楊博文耳鼻喉科診所",
                 "phone": "06 -2903911",
                 "address": "臺南市東區崇善里仁和路76－8號",

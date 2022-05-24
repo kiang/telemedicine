@@ -1,0 +1,73 @@
+{
+  "Info": [
+    {
+      "IsSuccess": "True",
+      "InAddress": "臺南市安南區海東里同安路46號",
+      "InSRS": "EPSG:4326",
+      "InFuzzyType": "[單雙號機制]+[最近門牌號機制]",
+      "InFuzzyBuffer": "0",
+      "InIsOnlyFullMatch": "False",
+      "InIsSupportPast": "True",
+      "InIsShowCodeBase": "True",
+      "InIsLockCounty": "True",
+      "InIsLockTown": "False",
+      "InIsLockVillage": "False",
+      "InIsLockRoadSection": "False",
+      "InIsLockLane": "False",
+      "InIsLockAlley": "False",
+      "InIsLockArea": "False",
+      "InIsSameNumber_SubNumber": "True",
+      "InCanIgnoreVillage": "True",
+      "InCanIgnoreNeighborhood": "True",
+      "InReturnMaxCount": "0",
+      "OutTotal": "2",
+      "OutMatchType": "模糊比對",
+      "OutMatchCode": "[臺南市]\tT:1,V:1,R:1,S:-1,L:-1,A:-1,SA:-1,T:-1,AR:-1,NO:0(+25)(-15),E:-1,N:-1",
+      "OutTraceInfo": "[臺南市]\t { 模糊比對 } (安南區)\t找到符合的[鄉鎮市區]，(海東里)\t找到符合的[村里]，(同安路)\t找到符合的[路街名]，(46號)\t進行[找大於且最接近的門牌號碼]，找到大於輸入的門牌號碼 +25 號，進行[找小於且最接近的門牌號碼]，找到小於輸入的門牌號碼 -15 號，模糊比對找到 2 筆符合的門牌地址。"
+    }
+  ],
+  "AddressList": [
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺南市安南區海東里27鄰同安路31號",
+      "COUNTY": "臺南市",
+      "TOWN": "安南區",
+      "VILLAGE": "海東里",
+      "NEIGHBORHOOD": "27鄰",
+      "ROAD": "同安路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "31號",
+      "X": 120.188908,
+      "Y": 23.039618,
+      "CODEBASE": "A6735-0894-00",
+      "CODE1": "A6735-35-006",
+      "CODE2": "A6735-35"
+    },
+    {
+      "PERIOD": "",
+      "FULL_ADDR": "臺南市安南區海東里27鄰同安路71號",
+      "COUNTY": "臺南市",
+      "TOWN": "安南區",
+      "VILLAGE": "海東里",
+      "NEIGHBORHOOD": "27鄰",
+      "ROAD": "同安路",
+      "SECTION": "",
+      "LANE": "",
+      "ALLEY": "",
+      "SUB_ALLEY": "",
+      "TONG": "",
+      "AREA": "",
+      "NUMBER": "71號",
+      "X": 120.189079,
+      "Y": 23.039914,
+      "CODEBASE": "A6735-0894-00",
+      "CODE1": "A6735-35-006",
+      "CODE2": "A6735-35"
+    }
+  ]
+}
