@@ -30,7 +30,7 @@ function pointStyleFunction(f) {
   if (p.type == 2) {
     color = '#48c774';
   } else {
-    color = '#cccccc';
+    color = '#c74874';
   }
 
   return new ol.style.Style({
