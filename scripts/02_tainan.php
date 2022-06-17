@@ -3,11 +3,17 @@ $config = require __DIR__ . '/config.php';
 
 $rawPath = dirname(__DIR__) . '/raw';
 
+$fc = [
+    'type' => 'FeatureCollection',
+    'features' => [],
+];
+
 $nhiFiles = [
     dirname(dirname(__DIR__)) . '/data.nhi.gov.tw/raw/A21030000I-D21001-003.csv', //醫學中心
     dirname(dirname(__DIR__)) . '/data.nhi.gov.tw/raw/A21030000I-D21002-005.csv', //區域醫院
     dirname(dirname(__DIR__)) . '/data.nhi.gov.tw/raw/A21030000I-D21003-003.csv', //地區醫院
     dirname(dirname(__DIR__)) . '/data.nhi.gov.tw/raw/A21030000I-D21004-009.csv', //診所
+    dirname(dirname(__DIR__)) . '/data.nhi.gov.tw/raw/A21030000I-D21005-001.csv', //藥局
 ];
 
 $info = [];
@@ -48,12 +54,6 @@ while ($line = fgetcsv($fh, 2048)) {
         'info' => $info[$line[0]],
     ];
 }
-
-
-$fc = [
-    'type' => 'FeatureCollection',
-    'features' => [],
-];
 
 $csvFile = $rawPath . '/city/tainan.csv';
 // format error = https://docs.google.com/spreadsheets/d/1rVrP0RKSe2_NNJyhHQKkX0POyl_7Hmxb/gviz/tq?tqx=out:csv&sheet=%E5%BD%99%E6%95%B4%E8%A1%A8
@@ -282,6 +282,99 @@ foreach ($xml->Document->Folder as $folder) {
         }
     }
 }
+
+$csvFile = dirname(__DIR__) . '/raw/city/tainan_pharmacies.csv';
+$fh = fopen($csvFile, 'r');
+$pharmacies = [];
+while ($line = fgetcsv($fh, 2048)) {
+    $phone = preg_replace('/[^0-9]/', '', $line[3]);
+    if (!empty($phone)) {
+        $pharmacies[$phone] = $line;
+    }
+}
+
+$fh = fopen(dirname(dirname(__DIR__)) . '/data.nhi.gov.tw/raw/A21030000I-D21005-001.csv', 'r');
+while ($line = fgetcsv($fh, 2048)) {
+    $phone = preg_replace('/[^0-9]/', '', $line[3]);
+    switch ($phone) {
+        case '062473993':
+            $phone = '062473992';
+            break;
+        case '062672578':
+            $phone = '062673578';
+            break;
+    }
+    if (isset($pharmacies[$phone])) {
+        $address = $line[4];
+
+        $cityPath = $rawPath . '/geocoding/' . mb_substr($address, 0, 3, 'utf-8');
+        if (!file_exists($cityPath)) {
+            mkdir($cityPath, 0777, true);
+        }
+        $pos = strpos($address, '號');
+        if (false !== $pos) {
+            $address = substr($address, 0, $pos) . '號';
+        }
+        $rawFile = $cityPath . '/' . $address . '.json';
+        if (!file_exists($rawFile)) {
+            $apiUrl = $config['tgos']['url'] . '?' . http_build_query([
+                'oAPPId' => $config['tgos']['APPID'], //應用程式識別碼(APPId)
+                'oAPIKey' => $config['tgos']['APIKey'], // 應用程式介接驗證碼(APIKey)
+                'oAddress' => $address, //所要查詢的門牌位置
+                'oSRS' => 'EPSG:4326', //回傳的坐標系統
+                'oFuzzyType' => '2', //模糊比對的代碼
+                'oResultDataType' => 'JSON', //回傳的資料格式
+                'oFuzzyBuffer' => '0', //模糊比對回傳門牌號的許可誤差範圍
+                'oIsOnlyFullMatch' => 'false', //是否只進行完全比對
+                'oIsLockCounty' => 'true', //是否鎖定縣市
+                'oIsLockTown' => 'false', //是否鎖定鄉鎮市區
+                'oIsLockVillage' => 'false', //是否鎖定村里
+                'oIsLockRoadSection' => 'false', //是否鎖定路段
+                'oIsLockLane' => 'false', //是否鎖定巷
+                'oIsLockAlley' => 'false', //是否鎖定弄
+                'oIsLockArea' => 'false', //是否鎖定地區
+                'oIsSameNumber_SubNumber' => 'true', //號之、之號是否視為相同
+                'oCanIgnoreVillage' => 'true', //找不時是否可忽略村里
+                'oCanIgnoreNeighborhood' => 'true', //找不時是否可忽略鄰
+                'oReturnMaxCount' => '0', //如為多筆時，限制回傳最大筆數
+                'oIsSupportPast' => 'true',
+                'oIsShowCodeBase' => 'true',
+            ]);
+            $content = file_get_contents($apiUrl);
+            $pos = strpos($content, '{');
+            $posEnd = strrpos($content, '}') + 1;
+            $resultline = substr($content, $pos, $posEnd - $pos);
+            if (strlen($resultline) > 10) {
+                echo "{$address}\n";
+                file_put_contents($rawFile, substr($content, $pos, $posEnd - $pos));
+            }
+        }
+        if (file_exists($rawFile)) {
+            $json = json_decode(file_get_contents($rawFile), true);
+            if (!empty($json['AddressList'][0]['X'])) {
+                $fc['features'][] = [
+                    'type' => 'Feature',
+                    'properties' => [
+                        'id' => $line[0],
+                        'type' => 4,
+                        'name' => $line[1],
+                        'phone' => $line[3],
+                        'address' => $line[4],
+                        'service_periods' => $pool[$line[1]]['meta'][5],
+                    ],
+                    'geometry' => [
+                        'type' => 'Point',
+                        'coordinates' => [
+                            $json['AddressList'][0]['X'],
+                            $json['AddressList'][0]['Y']
+                        ],
+                    ],
+                ];
+            }
+        }
+    }
+}
+
 $fc['features'] = array_values($fc['features']);
 
 $jsonPath = dirname(__DIR__) . '/docs/json';

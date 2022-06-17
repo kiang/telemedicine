@@ -3858,6 +3858,2778 @@
                     23.299959
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905010027",
+                "type": 4,
+                "name": "大安藥局",
+                "phone": "06 -6322366",
+                "address": "臺南市新營區中山路257號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.313931,
+                    23.302347
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905010036",
+                "type": 4,
+                "name": "橘子藥局",
+                "phone": "06 -6351881",
+                "address": "臺南市新營區民權路118之2號",
+                "service_periods": "NNNNNNNNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.311955,
+                    23.309891
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905010125",
+                "type": 4,
+                "name": "宏泰大藥局",
+                "phone": "06 -6327801",
+                "address": "臺南市新營區新東里東興8街27號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.327502,
+                    23.317039
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905030038",
+                "type": 4,
+                "name": "美尚藥局",
+                "phone": "06 -6853538",
+                "address": "臺南市白河區白河里康樂路43號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.414823,
+                    23.348324
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905050094",
+                "type": 4,
+                "name": "建昌藥局佳里店",
+                "phone": "06 -7221369",
+                "address": "臺南市佳里區光復路371號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.174727,
+                    23.164517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905070050",
+                "type": 4,
+                "name": "晶德昌藥局",
+                "phone": "06 -5856141",
+                "address": "臺南市善化區文光里中山路85號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.303375,
+                    23.132981
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905070112",
+                "type": 4,
+                "name": "健登藥局",
+                "phone": "06 -5831133",
+                "address": "臺南市善化區大成路212號1樓",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.300428,
+                    23.130206
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905090025",
+                "type": 4,
+                "name": "中山藥局",
+                "phone": "06 -6221696",
+                "address": "臺南市柳營區中山西路二段145號1樓",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.313661,
+                    23.276577
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905120055",
+                "type": 4,
+                "name": "維任藥局",
+                "phone": "06 -6892259",
+                "address": "臺南市下營區中正北路7號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.262471,
+                    23.235423
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905170019",
+                "type": 4,
+                "name": "博士藥師專業藥局",
+                "phone": "06 -7874226",
+                "address": "臺南市七股區大埕里357號1樓",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.140524,
+                    23.141691
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905180042",
+                "type": 4,
+                "name": "建昌藥局漚汪店",
+                "phone": "06 -7941889",
+                "address": "臺南市將軍區忠興里1－6號1樓",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.159409,
+                    23.199565
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905200030",
+                "type": 4,
+                "name": "新和德健保藥局",
+                "phone": "06 -5997603",
+                "address": "臺南市新市區中正路319－1號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.293871,
+                    23.079578
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905200058",
+                "type": 4,
+                "name": "欣和德藥局",
+                "phone": "06 -5895658",
+                "address": "臺南市新市區中正路200號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.291606,
+                    23.075154
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905200094",
+                "type": 4,
+                "name": "大華藥局",
+                "phone": "06 -5997119",
+                "address": "臺南市新市區大社里大社708號1樓",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.31755,
+                    23.089448
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905270194",
+                "type": 4,
+                "name": "成吉藥局仁義店",
+                "phone": "06 -2497307",
+                "address": "臺南市仁德區仁義路42－1號1樓",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNYN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.253913,
+                    22.968081
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905280127",
+                "type": 4,
+                "name": "義德藥局歸仁店",
+                "phone": "06 -2300399",
+                "address": "臺南市歸仁區民權北路75號1樓",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.287899,
+                    22.969242
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905310255",
+                "type": 4,
+                "name": "濟康藥師藥局",
+                "phone": "06 -3122057",
+                "address": "臺南市永康區勝利里勝學路281號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.230943,
+                    23.007719
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905310264",
+                "type": 4,
+                "name": "仁安藥師藥局",
+                "phone": "06 -2056055",
+                "address": "臺南市永康區崑山里大仁街61號",
+                "service_periods": "NNNNNNYYYYYYYYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.256603,
+                    23.001828
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905310273",
+                "type": 4,
+                "name": "誠康藥局",
+                "phone": "06 -3022005",
+                "address": "臺南市永康區中山東路113號1樓",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.23674,
+                    23.012661
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905310353",
+                "type": 4,
+                "name": "家嘉藥局",
+                "phone": "06 -3121328",
+                "address": "臺南市永康區復國一路206號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.246247,
+                    23.006437
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905310871",
+                "type": 4,
+                "name": "晶辰藥局",
+                "phone": "06 -2733368",
+                "address": "臺南市永康區大灣里民族路396巷1號、3號1樓、398號1樓",
+                "service_periods": "NNNNNNNNNNNNNNYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.266071,
+                    23.008251
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905310988",
+                "type": 4,
+                "name": "小東藥局",
+                "phone": "06 -3127169",
+                "address": "臺南市永康區小東路573號1樓",
+                "service_periods": "NNNNNYYNNNNNYYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.236892,
+                    22.998674
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905311010",
+                "type": 4,
+                "name": "樂丞藥局",
+                "phone": "06 -2433319",
+                "address": "臺南市永康區中正北路60號1樓",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.240557,
+                    23.041376
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905311083",
+                "type": 4,
+                "name": "心康藥局",
+                "phone": "06 -2055075",
+                "address": "臺南市永康區永大路二段179號1樓",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.26164,
+                    23.006651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905311127",
+                "type": 4,
+                "name": "台南永康藥局",
+                "phone": "06 -2020201",
+                "address": "臺南市永康區中山南路816、816─1、2、3號1樓",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.228806,
+                    23.013207
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905311216",
+                "type": 4,
+                "name": "新安生堂藥局",
+                "phone": "06 -2717068",
+                "address": "臺南市永康區西勢里富強路一段50號1樓",
+                "service_periods": "NNNNNNYYYYYYYYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.272617,
+                    23.014543
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905320019",
+                "type": 4,
+                "name": "英菩藥局",
+                "phone": "06 -2606723",
+                "address": "臺南市東區關聖里富農街二段108巷10號1樓",
+                "service_periods": "NNNNNYYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.23611,
+                    22.987299
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905320091",
+                "type": 4,
+                "name": "台和群康藥局",
+                "phone": "06 -2891360",
+                "address": "臺南市東區崇善路470號1樓",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.229456,
+                    22.972919
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905320260",
+                "type": 4,
+                "name": "群安健保藥局",
+                "phone": "06 -2690652",
+                "address": "臺南市東區復興里自由路三段151、153號1樓",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.236885,
+                    22.983025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905320331",
+                "type": 4,
+                "name": "高福藥局",
+                "phone": "06 -2904668",
+                "address": "臺南市東區大智里德東街168號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.232176,
+                    22.961711
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905320420",
+                "type": 4,
+                "name": "大漢中西藥局",
+                "phone": "06 -2908939",
+                "address": "臺南市東區崇德里崇明路465號",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.224768,
+                    22.973047
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905320475",
+                "type": 4,
+                "name": "美生藥局",
+                "phone": "06 -2670035",
+                "address": "臺南市東區德高里自由路一段161號1樓",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.236745,
+                    22.968623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905320546",
+                "type": 4,
+                "name": "佑丞藥局",
+                "phone": "06 -2902709",
+                "address": "臺南市東區中華東路二段129號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.233322,
+                    22.985446
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905320706",
+                "type": 4,
+                "name": "悅橙藥局",
+                "phone": "06 -2605168",
+                "address": "臺南市東區崇明路459號1樓",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.224669,
+                    22.97311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905340020",
+                "type": 4,
+                "name": "慶大藥局",
+                "phone": "06 -2251188",
+                "address": "臺南市中西區民權路二段182號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.202257,
+                    22.995343
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905340075",
+                "type": 4,
+                "name": "麗欣健保藥局",
+                "phone": "06 -2209393",
+                "address": "臺南市中西區永華路一段194號1樓",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.19165,
+                    22.98835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905340155",
+                "type": 4,
+                "name": "東北藥局",
+                "phone": "06 -2226753",
+                "address": "臺南市中西區福安里西門路二段14號1樓",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.198125,
+                    22.990748
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905350026",
+                "type": 4,
+                "name": "良佑堂藥局",
+                "phone": "06 -2586223",
+                "address": "臺南市北區文賢路299號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.193462,
+                    23.006305
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905350035",
+                "type": 4,
+                "name": "海安藥師藥局",
+                "phone": "06 -2814600",
+                "address": "臺南市北區北成路418號1樓",
+                "service_periods": "NNNNNYYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.201958,
+                    23.019283
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905350062",
+                "type": 4,
+                "name": "嘉星藥師大藥局",
+                "phone": "06 -2093737",
+                "address": "臺南市北區開元路339號1樓",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.222022,
+                    23.008545
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905350099",
+                "type": 4,
+                "name": "若安藥局",
+                "phone": "06 -2095666",
+                "address": "臺南市北區開元路103號1樓",
+                "service_periods": "NNNYNNYNNNYNYYNNNYNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.217648,
+                    23.006547
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905350268",
+                "type": 4,
+                "name": "宸安藥局",
+                "phone": "06 -2238679",
+                "address": "臺南市北區光民里成功路436號1樓",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.198076,
+                    23.000931
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905350366",
+                "type": 4,
+                "name": "千多藥局",
+                "phone": "06 -2228641",
+                "address": "臺南市北區金華路五段1號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.196061,
+                    23.001683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905350508",
+                "type": 4,
+                "name": "育德保健藥局",
+                "phone": "06 -2525360",
+                "address": "臺南市北區富德里育德路530號1樓",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.206892,
+                    23.015267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905370144",
+                "type": 4,
+                "name": "仁大藥局",
+                "phone": "06 -2561777",
+                "address": "臺南市安南區海佃路三段346號1樓",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.178805,
+                    23.053224
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905370466",
+                "type": 4,
+                "name": "大樹北安藥局",
+                "phone": "06 -2553633",
+                "address": "臺南市安南區北安路三段158號1樓",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.203593,
+                    23.042559
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5905380239",
+                "type": 4,
+                "name": "怡家藥局",
+                "phone": "06 -2970519",
+                "address": "臺南市安平區國平里華平路146─5號1樓",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.173978,
+                    22.984532
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921010072",
+                "type": 4,
+                "name": "統一藥局",
+                "phone": "06 -2376638",
+                "address": "臺南市東區中西里東門路1段291號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.218566,
+                    22.986829
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921010107",
+                "type": 4,
+                "name": "榮泰藥局",
+                "phone": "06 -2369095",
+                "address": "臺南市東區崇誨里林森路2段192巷49號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.225606,
+                    22.989726
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921010152",
+                "type": 4,
+                "name": "周藥師藥局",
+                "phone": "06 -2678421",
+                "address": "臺南市東區崇成里崇善路654號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.230292,
+                    22.970493
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921010161",
+                "type": 4,
+                "name": "懷仁藥局",
+                "phone": "06 -2694895",
+                "address": "臺南市東區崇學里崇德路342號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.223806,
+                    22.976426
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921010303",
+                "type": 4,
+                "name": "賴藥局",
+                "phone": "06 -2363738",
+                "address": "臺南市東區後甲里裕農路621巷26－2號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.235624,
+                    22.989153
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921010410",
+                "type": 4,
+                "name": "三祐堂藥局",
+                "phone": "06 -2673654",
+                "address": "臺南市東區東門路二段366號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.2273,
+                    22.982505
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921010652",
+                "type": 4,
+                "name": "良泰藥局",
+                "phone": "06 -2676256",
+                "address": "臺南市東區仁和里仁和路117之1號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.233754,
+                    22.970441
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921010661",
+                "type": 4,
+                "name": "建龍藥局",
+                "phone": "06 -2683998",
+                "address": "臺南市東區自強里中華東路二段257號",
+                "service_periods": "NNNNNYYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.231395,
+                    22.983153
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921010705",
+                "type": 4,
+                "name": "華興藥局",
+                "phone": "06 -2683757",
+                "address": "臺南市東區崇善路562號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.230198,
+                    22.970756
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921010778",
+                "type": 4,
+                "name": "宏成藥局",
+                "phone": "06 -2359339",
+                "address": "臺南市東區裕農路116號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.227237,
+                    22.985878
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921012281",
+                "type": 4,
+                "name": "菁安藥局",
+                "phone": "06 -3361683",
+                "address": "臺南市東區富強里中華東路二段49號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.233161,
+                    22.98675
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921013206",
+                "type": 4,
+                "name": "和德藥局",
+                "phone": "06 -2882789",
+                "address": "臺南市東區崇德路497號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.227245,
+                    22.974347
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921020130",
+                "type": 4,
+                "name": "裕祥藥局",
+                "phone": "06 -2635796",
+                "address": "臺南市南區明興里金華路1段228號",
+                "service_periods": "NNNNNNYYYYYYYYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.190239,
+                    22.966889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921020149",
+                "type": 4,
+                "name": "吉祥藥局",
+                "phone": "06 -2632853",
+                "address": "臺南市南區文南路117號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.189826,
+                    22.984864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921020210",
+                "type": 4,
+                "name": "興泰藥局",
+                "phone": "06 -2653638",
+                "address": "臺南市南區金華路一段165號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.189733,
+                    22.965572
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921020345",
+                "type": 4,
+                "name": "重光藥局",
+                "phone": "06 -2618087",
+                "address": "臺南市南區鹽埕路272號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.189841,
+                    22.970206
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921020425",
+                "type": 4,
+                "name": "日大中西藥局",
+                "phone": "06 -2612817",
+                "address": "臺南市南區永興一街32號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.192688,
+                    22.965903
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921020470",
+                "type": 4,
+                "name": "大仁藥局",
+                "phone": "06 -2610673",
+                "address": "臺南市南區金華里新孝路30號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.190306,
+                    22.977837
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921021566",
+                "type": 4,
+                "name": "佑佑藥局",
+                "phone": "06 -2912603",
+                "address": "臺南市南區金華里健康路二段349號2Ｆ",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.187895,
+                    22.981728
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921021584",
+                "type": 4,
+                "name": "大愛藥局",
+                "phone": "06 -2137587",
+                "address": "臺南市南區大同路2段182號1樓",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.213455,
+                    22.977045
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921021815",
+                "type": 4,
+                "name": "樺昇藥局",
+                "phone": "06 -2625571",
+                "address": "臺南市南區明興路1367號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.184831,
+                    22.922148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921030074",
+                "type": 4,
+                "name": "自在藥局",
+                "phone": "06 -2235520",
+                "address": "臺南市中西區民生路二段63號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.197517,
+                    22.994879
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921030092",
+                "type": 4,
+                "name": "三芳藥局",
+                "phone": "06 -2203084",
+                "address": "臺南市中西區元安里大勇街5號",
+                "service_periods": "NNNNNNYNNNNNNYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.195396,
+                    22.989364
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921030118",
+                "type": 4,
+                "name": "雅里藥局",
+                "phone": "06 -2200881",
+                "address": "臺南市中西區民族路三段285號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.192423,
+                    22.9999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921030234",
+                "type": 4,
+                "name": "永祥藥局",
+                "phone": "06 -2212163",
+                "address": "臺南市中西區民權路三段204號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.194856,
+                    22.997748
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921030289",
+                "type": 4,
+                "name": "星宗藥局",
+                "phone": "06 -2223453",
+                "address": "臺南市中西區新安里大勇街37號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.194214,
+                    22.989803
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921032069",
+                "type": 4,
+                "name": "康乃爾藥局",
+                "phone": "06 -2267917",
+                "address": "臺南市中西區成功路321號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.200371,
+                    22.999853
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921032185",
+                "type": 4,
+                "name": "西門藥局",
+                "phone": "06 -2211222",
+                "address": "臺南市中西區西門路2段209號",
+                "service_periods": "NNNNNYYNNNNNYYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.199158,
+                    22.994875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921040221",
+                "type": 4,
+                "name": "好鄰居藥局",
+                "phone": "06 -2219015",
+                "address": "臺南市北區西華里公園路128號2樓7室",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.207641,
+                    22.998894
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921040276",
+                "type": 4,
+                "name": "全一藥局",
+                "phone": "06 -2580021",
+                "address": "臺南市北區大豐里和緯路四段95巷38號",
+                "service_periods": "NNNNNNNYYYYYYYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.191222,
+                    23.0076
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921040623",
+                "type": 4,
+                "name": "惠光藥局",
+                "phone": "06 -2586316",
+                "address": "臺南市北區文亢里文賢路236號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.193839,
+                    23.004196
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921040678",
+                "type": 4,
+                "name": "賀康藥局",
+                "phone": "06 -2819515",
+                "address": "臺南市北區公園路701號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.214558,
+                    23.016705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921041979",
+                "type": 4,
+                "name": "康友藥師藥局",
+                "phone": "06 -2520666",
+                "address": "臺南市北區和緯路二段243號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.204385,
+                    23.012235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921042038",
+                "type": 4,
+                "name": "佳一藥局",
+                "phone": "06 -2511947",
+                "address": "臺南市北區北門路2段519號1樓",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.215892,
+                    23.010023
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921042243",
+                "type": 4,
+                "name": "大道藥局",
+                "phone": "06 -2513000",
+                "address": "臺南市北區北門路二段590號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.216475,
+                    23.010929
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921042252",
+                "type": 4,
+                "name": "佳愛藥局",
+                "phone": "06 -2516697",
+                "address": "臺南市北區西門路四段341巷2號",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.209734,
+                    23.015319
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921042261",
+                "type": 4,
+                "name": "百氏康藥局",
+                "phone": "06 -2514199",
+                "address": "臺南市北區北安路一段120號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.209957,
+                    23.017033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921050094",
+                "type": 4,
+                "name": "吉安藥局",
+                "phone": "06 -2227394",
+                "address": "臺南市中西區薘壺里成功路289號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.201482,
+                    22.999417
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921050174",
+                "type": 4,
+                "name": "春天藥局",
+                "phone": "06 -2221562",
+                "address": "臺南市中西區民族路2段274號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.200845,
+                    22.997548
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921050423",
+                "type": 4,
+                "name": "吉仁大藥局",
+                "phone": "06 -2263777",
+                "address": "臺南市中西區白金里民權路2段86號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.204463,
+                    22.994685
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921050441",
+                "type": 4,
+                "name": "快安藥局",
+                "phone": "06 -2254543",
+                "address": "臺南市中西區溫陵里永福路二段84之15號",
+                "service_periods": "NNNNNNYNNNNNNYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.201914,
+                    22.992383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921060072",
+                "type": 4,
+                "name": "翰昌藥局",
+                "phone": "06 -2596372",
+                "address": "臺南市安南區溪東里北安路二段119號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.204674,
+                    23.027218
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921060161",
+                "type": 4,
+                "name": "仲宏藥局",
+                "phone": "06 -2567798",
+                "address": "臺南市安南區淵中里安中路3段431號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.173692,
+                    23.05
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921060170",
+                "type": 4,
+                "name": "明杰藥局",
+                "phone": "06 -2567821",
+                "address": "臺南市安南區理想里大安街98號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.191897,
+                    23.03967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921060205",
+                "type": 4,
+                "name": "建壽藥局",
+                "phone": "06 -2555388",
+                "address": "臺南市安南區海東里海佃路2段572號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.187399,
+                    23.042207
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921060358",
+                "type": 4,
+                "name": "長青大藥局",
+                "phone": "06 -2812896",
+                "address": "臺南市安南區安和路一段93號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.214377,
+                    23.027961
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921060376",
+                "type": 4,
+                "name": "涂逸權藥師藥局",
+                "phone": "06 -2560583",
+                "address": "臺南市安南區長溪路一段314號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.207282,
+                    23.038902
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921061604",
+                "type": 4,
+                "name": "泰赫中西藥局",
+                "phone": "06 -2562317",
+                "address": "臺南市安南區安中路4段79號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.17222,
+                    23.049564
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5921071271",
+                "type": 4,
+                "name": "中信藥局",
+                "phone": "06 -2978697",
+                "address": "臺南市安平區永華路二段716號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.17233,
+                    22.991154
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941010309",
+                "type": 4,
+                "name": "鴻達藥局",
+                "phone": "06 -6358837",
+                "address": "臺南市新營區民生里復興路124號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.310083,
+                    23.3035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941011548",
+                "type": 4,
+                "name": "欣欣藥局",
+                "phone": "06 -6530179",
+                "address": "臺南市新營區太北里146之28號",
+                "service_periods": "NNNNNNYNNYNNYYNYNYNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.2747,
+                    23.293651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941011600",
+                "type": 4,
+                "name": "人安藥局",
+                "phone": "06 -6376863",
+                "address": "臺南市新營區民權里信義街70號",
+                "service_periods": "NNNNNNYNNNNNYYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.314761,
+                    23.30782
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941011842",
+                "type": 4,
+                "name": "康泰藥師藥局",
+                "phone": "06 -6377807",
+                "address": "臺南市新營區民生路12號1樓",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.309754,
+                    23.30406
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941020038",
+                "type": 4,
+                "name": "惠生藥局",
+                "phone": "06 -6522279",
+                "address": "臺南市鹽水區中正路31號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.267893,
+                    23.319989
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941020056",
+                "type": 4,
+                "name": "民生藥局",
+                "phone": "06 -6521071",
+                "address": "臺南市鹽水區中境里三福路51號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.266117,
+                    23.320824
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941030089",
+                "type": 4,
+                "name": "新信安藥局",
+                "phone": "06 -6852173",
+                "address": "臺南市白河區中山路51號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.414996,
+                    23.349644
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941031175",
+                "type": 4,
+                "name": "芳瑜藥局",
+                "phone": "06 -6857379",
+                "address": "臺南市白河區永安里康樂路72號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.414111,
+                    23.349589
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941040012",
+                "type": 4,
+                "name": "杏林藥局",
+                "phone": "06 -5722692",
+                "address": "臺南市麻豆區晉江里興中路136號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.252161,
+                    23.183262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941040085",
+                "type": 4,
+                "name": "信興藥局",
+                "phone": "06 -5722002",
+                "address": "臺南市麻豆區保安里興中路115號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.25107,
+                    23.183803
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941050054",
+                "type": 4,
+                "name": "立昌藥局",
+                "phone": "06 -7225314",
+                "address": "臺南市佳里區安西里光復路244號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.174898,
+                    23.162061
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941050063",
+                "type": 4,
+                "name": "新生藥局",
+                "phone": "06 -7224563",
+                "address": "臺南市佳里區新生路80號1樓",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.179436,
+                    23.161059
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941051499",
+                "type": 4,
+                "name": "雅倫藥局",
+                "phone": "06 -7229488",
+                "address": "臺南市佳里區建南街165號1樓",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.176745,
+                    23.159355
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941051542",
+                "type": 4,
+                "name": "黃藥師藥局",
+                "phone": "06 -7217033",
+                "address": "臺南市佳里區忠孝路293號1樓",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.170962,
+                    23.168866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941060050",
+                "type": 4,
+                "name": "炳騰藥局",
+                "phone": "06 -5911687",
+                "address": "臺南市新化區那拔里290號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.350815,
+                    23.067951
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941070154",
+                "type": 4,
+                "name": "嘉展藥師藥局",
+                "phone": "06 -5839112",
+                "address": "臺南市善化區坐駕里建國路45號",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.297172,
+                    23.127663
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941080016",
+                "type": 4,
+                "name": "世酆藥局",
+                "phone": "06 -7838779",
+                "address": "臺南市學甲區仁得里成功路11－1號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.180556,
+                    23.231798
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941081193",
+                "type": 4,
+                "name": "信忠藥局",
+                "phone": "06 -7832363",
+                "address": "臺南市學甲區中正路274號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.180437,
+                    23.234107
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941090049",
+                "type": 4,
+                "name": "美安藥局",
+                "phone": "06 -6222906",
+                "address": "臺南市柳營區士林里柳營路二段15號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.312248,
+                    23.276966
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941100013",
+                "type": 4,
+                "name": "嘉民藥局",
+                "phone": "06 -6882322",
+                "address": "臺南市後壁區嘉民里上茄苳146號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.37545,
+                    23.388441
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941101092",
+                "type": 4,
+                "name": "慈慧藥局",
+                "phone": "06 -6621976",
+                "address": "臺南市後壁區菁豐里68之2號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.346964,
+                    23.378966
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941110046",
+                "type": 4,
+                "name": "青山藥局",
+                "phone": "06 -6802740",
+                "address": "臺南市東山區東中里中興路23號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.403193,
+                    23.322575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941111061",
+                "type": 4,
+                "name": "杏春堂中西藥局",
+                "phone": "06 -6802682",
+                "address": "臺南市東山區中興路97號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.403126,
+                    23.324107
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941151056",
+                "type": 4,
+                "name": "三和藥局",
+                "phone": "06 -5762187",
+                "address": "臺南市大內區內江里270號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.361084,
+                    23.117705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941160028",
+                "type": 4,
+                "name": "俊傑藥局",
+                "phone": "06 -7950081",
+                "address": "臺南市西港區慶安里中山路257號",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20328,
+                    23.120871
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941161070",
+                "type": 4,
+                "name": "厚真藥局",
+                "phone": "06 -7962628",
+                "address": "臺南市西港區營西里2鄰後營17號",
+                "service_periods": "NNNNNNNNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.216579,
+                    23.140974
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941181054",
+                "type": 4,
+                "name": "年豐藥局",
+                "phone": "06 -7946247",
+                "address": "臺南市將軍區忠嘉里忠興42－10號1樓",
+                "service_periods": "NNYNNNYNNYNNNYNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.157993,
+                    23.201627
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941190044",
+                "type": 4,
+                "name": "謝藥局",
+                "phone": "06 -7864192",
+                "address": "臺南市北門區保吉里412號1樓",
+                "service_periods": "NNYNNNYNNNNNNNNNNYNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.135808,
+                    23.286501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941200027",
+                "type": 4,
+                "name": "重仁藥局",
+                "phone": "06 -5998586",
+                "address": "臺南市新市區新市里中興街48號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.294223,
+                    23.078405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941220029",
+                "type": 4,
+                "name": "瑞興藥局",
+                "phone": "06 -5781151",
+                "address": "臺南市山上區南洲里66號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.354603,
+                    23.101928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941230016",
+                "type": 4,
+                "name": "玉井藥局",
+                "phone": "06 -5742271",
+                "address": "臺南市玉井區玉田里中華路47號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.462322,
+                    23.123888
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941230025",
+                "type": 4,
+                "name": "柏林藥局",
+                "phone": "06 -5742386",
+                "address": "臺南市玉井區玉田里中正路224號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.463696,
+                    23.125049
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941230052",
+                "type": 4,
+                "name": "博愛中西藥局",
+                "phone": "06 -5743036",
+                "address": "臺南市玉井區玉田里中正路238號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.464018,
+                    23.125177
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941231111",
+                "type": 4,
+                "name": "大眾藥局",
+                "phone": "06 -5744099",
+                "address": "臺南市玉井區中華路237號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.465046,
+                    23.121404
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941231139",
+                "type": 4,
+                "name": "伊立安藥局",
+                "phone": "06 -5747001",
+                "address": "臺南市玉井區玉田里中山路143號1樓",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.465699,
+                    23.122184
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941270074",
+                "type": 4,
+                "name": "歐大藥局",
+                "phone": "06 -2664831",
+                "address": "臺南市仁德區中洲里中洲路541號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.253766,
+                    22.908178
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941270216",
+                "type": 4,
+                "name": "聖豐藥局",
+                "phone": "06 -2663588",
+                "address": "臺南市仁德區中洲里中洲路788號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.250215,
+                    22.908663
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941280043",
+                "type": 4,
+                "name": "道仁藥局",
+                "phone": "06 -2301967",
+                "address": "臺南市歸仁區許厝里中山路一段478號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.297344,
+                    22.966536
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941281362",
+                "type": 4,
+                "name": "安麗兒藥局",
+                "phone": "06 -2399212",
+                "address": "臺南市歸仁區辜厝里中山路二段71號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.292294,
+                    22.966808
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941281371",
+                "type": 4,
+                "name": "新光藥局",
+                "phone": "06 -3305249",
+                "address": "臺南市歸仁區許厝里中山路一段320號",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.301993,
+                    22.966007
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941281442",
+                "type": 4,
+                "name": "倍安藥局",
+                "phone": "06 -2782913",
+                "address": "臺南市歸仁區大潭里長榮路1段232號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.269869,
+                    22.910415
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941281451",
+                "type": 4,
+                "name": "生祥大藥局",
+                "phone": "06 -2396538",
+                "address": "臺南市歸仁區中山路2段46號之1號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.292754,
+                    22.967023
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941291171",
+                "type": 4,
+                "name": "健新藥局",
+                "phone": "06 -5952093",
+                "address": "臺南市關廟區香洋里中正路947號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.329424,
+                    22.962108
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941291215",
+                "type": 4,
+                "name": "明義藥師藥局",
+                "phone": "06 -5959290",
+                "address": "臺南市關廟區山西里武聖路26號1樓",
+                "service_periods": "NNNNNNYNNNNNNYNNYNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.326623,
+                    22.96169
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941310162",
+                "type": 4,
+                "name": "重安藥局",
+                "phone": "06 -2327271",
+                "address": "臺南市永康區龍潭街190號",
+                "service_periods": "NNNNNNNNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.26723,
+                    23.033702
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941310171",
+                "type": 4,
+                "name": "正華藥局",
+                "phone": "06 -2323618",
+                "address": "臺南市永康區永康里永康街17號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.256476,
+                    23.025357
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941310199",
+                "type": 4,
+                "name": "嘉軒藥局",
+                "phone": "06 -2713329",
+                "address": "臺南市永康區西勢里富強路一段351號",
+                "service_periods": "NNNNNNNNNNNNNYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.275122,
+                    23.020674
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941310206",
+                "type": 4,
+                "name": "一航藥局",
+                "phone": "06 -3115595",
+                "address": "臺南市永康區復國一路233號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.246188,
+                    23.008319
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941310484",
+                "type": 4,
+                "name": "慈惠藥師保健藥局",
+                "phone": "06 -2718968",
+                "address": "臺南市永康區國光七街71號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.260028,
+                    23.009432
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941310528",
+                "type": 4,
+                "name": "邱藥局",
+                "phone": "06 -3020828",
+                "address": "臺南市永康區中華西街55號1樓",
+                "service_periods": "NNNNNNYNNNNNNYYYYYYYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.226895,
+                    23.013947
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941310797",
+                "type": 4,
+                "name": "維康藥局",
+                "phone": "06 -2016345",
+                "address": "臺南市永康區大橋二街141之1號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.22834,
+                    23.019674
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941310840",
+                "type": 4,
+                "name": "北一藥局",
+                "phone": "06 -2012215",
+                "address": "臺南市永康區中山南路43巷5號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.226814,
+                    23.012226
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941310895",
+                "type": 4,
+                "name": "欣康藥局",
+                "phone": "06 -2027346",
+                "address": "臺南市永康區正強里自強路394號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.254198,
+                    23.030021
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941310957",
+                "type": 4,
+                "name": "久大藥師藥局",
+                "phone": "06 -2724195",
+                "address": "臺南市永康區崑山里大灣路1058號",
+                "service_periods": "NNNNNNNNNNNNNNNNNNNNN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.252157,
+                    22.999003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941312022",
+                "type": 4,
+                "name": "華安藥局",
+                "phone": "06 -2021030",
+                "address": "臺南市永康區中華二路282號",
+                "service_periods": "NNNNNNYNNNNNYYNNNNNYY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.232713,
+                    23.008588
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941312166",
+                "type": 4,
+                "name": "和康藥局",
+                "phone": "06 -2325144",
+                "address": "臺南市永康區永康里中山北路32號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.258042,
+                    23.026022
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941312648",
+                "type": 4,
+                "name": "上宜藥局",
+                "phone": "06 -3116288",
+                "address": "臺南市永康區中華一路70號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.237409,
+                    23.004477
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5941312755",
+                "type": 4,
+                "name": "佑健康藥師藥局",
+                "phone": "06 -2316257",
+                "address": "臺南市永康區文化路202之3號",
+                "service_periods": "NNNNNNYNNNNNNYNNNNNNY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.255858,
+                    23.015398
+                ]
+            }
         }
     ]
 }

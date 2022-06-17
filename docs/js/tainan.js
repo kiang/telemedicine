@@ -39,6 +39,11 @@ function pointStyleFunction(f) {
     case 3:
       color = '#c74874';
       typeText = '視訊+PCR';
+      break;
+    case 4:
+      color = '#c7c774';
+      typeText = '送藥';
+      break;
   }
 
   return new ol.style.Style({
